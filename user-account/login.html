@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign in</title>
+	<link rel="stylesheet" type="text/css" href="../assets/css/useraccountforms.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<script type="text/javascript" src="../assets/scripts/javascript/signinalert.js"></script>
+    <script type="text/javascript" src="../assets/scripts/javascript/capslockdetect.js"></script>
+</head>
+<body>
+	<div class="login-field">
+			<form>
+  				<div class="login-container">
+    				<h1>Einloggen</h1>
+    				<p style="font-size: 12px; text-align: center; font-weight: bold;">Bitte loggen Sie sich in Ihr Benutzerkonto ein.</p>
+    				<hr>
+
+    				<label for="useradresse"><b>Benutzername oder E-Mail-Adresse</b> <span style="color: red;">*</span></label>
+    				<input id="myInput" type="text" placeholder="" name="useradresse" required autocomplete="off">
+
+    				<label for="psw"><b>Passwort</b> <span style="color: red;">*</span> <span style="/**/" class="forgot-password"><a href="reset_password.html">Passwort vergessen?</a></span> </label>
+    				<input class="capslockdetect" type="password" placeholder="" name="psw" required autocomplete="off" onkeypress="feststellcheck(event)">
+                    <div id="upperCase" style="visibility:hidden"><i class="fas fa-exclamation-triangle"></i> — Die Feststelltaste ist aktiv.</div>
+
+    				<p><span style="color: red;">*</span> Pflichtfelder</p>
+    				<hr>
+                    <button type="submit" class="registerbtn" onclick="signinalert()">In Benutzerkonto einloggen</button>
+  				</div>
+			</form>
+			<br><a class="notice" href="register.html"><div class="extended-login-note"><p><b>Haben Sie noch kein Benutzerkonto?</b><br><b>Klicken Sie hier.</b></p></div></a>
+	</div>
+</body>
+</html>
