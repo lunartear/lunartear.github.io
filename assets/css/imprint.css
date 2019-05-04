@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'Akkurat';
+	src: url("../fonts/Akkurat.ttf")
+}
+
+:root {
+	--text-default: 'Akkurat';
+	--notquiteblack: #111;
+	--greyple: #99AAB5;
+}
+
+html, body {
+	font-family: sans-serif;
+	background-color: var(--notquiteblack);
+	padding: 0; margin: 0;
+}
+
+.imprint {
+	padding-left: 50px;
+	text-align: justify;
+	font-size: 16px;
+	color: var(--greyple);
+}
+
+.center {text-align: center;}
+.shadow-effect {text-shadow: 1px 1px 0px #333, 2px 2px 0px #333, 3px 3px 0px #333, 4px 4px 0px #333, 5px 5px 0px #333, 6px 6px 0px #333, 7px 7px 0px #333;}
+.smallcaps {font-variant: small-caps;}
+.widthres {width: 70%;}
+.underline-header {border-bottom: 4px solid #23D9FF; width: 60%;}

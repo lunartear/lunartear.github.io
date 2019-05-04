@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.line--grad { width: 63.8%; height: 3px; left: 50%; position: absolute; top: 20px; background: linear-gradient(90deg, #FF0000, #007FFF, #FFB8DB, #B8FFDC, #007FFF, #B5A2C8, #FF9044, #C8FF44); transform: translate(-50%);}
+body {background-color: #222; font-family: monospace; font-size: 25px; margin: 0; padding: 0;}
+table > tbody > tr > td > strong {text-transform: uppercase;}
+table > tbody > tr > td {transition: transform 0.5s;}
+table > tbody > tr > td:hover {transform: scale(1.2); transition: transform 0.5s;}
+::selection {color: #FFF; background-color: #000;}
+::-webkit-scrollbar {display: none;}

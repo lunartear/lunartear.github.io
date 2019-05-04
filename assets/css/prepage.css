@@ -1,0 +1,57 @@
+body {
+  background: url("../images/engels_engage.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  background-color: #C8C2AA;
+  color: #D8D8D8;
+}
+
+* {margin: 0;}
+
+@font-face {font-family: 'NieR Title'; src: url("../fonts/BENGUIATBOOK.TTF");}
+@font-face {font-family: 'NieR HUD'; src: url("../fonts/SCE-PS3-RD-R-LATIN.TTF");}
+@font-face {font-family: 'Akkurat'; src: url("../fonts/Akkurat.ttf");}
+@font-face {font-family: 'Monaco Code'; src: url("../fonts/MONACO.TTF");}
+
+#overlay-dark {width: 100%; height: 100vh; background-color: rgba(0,0,0,0.4);}
+#gtmk-yorha {text-align: center; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background-color: rgba(0,0,0,0.85); padding: 65px; border-radius: 75px; border: solid 5px rgba(176,176,176,0.78); box-shadow: 20px 0px 0px rgba(176,176,176,0.78), -20px 0px 0px rgba(176,176,176,0.78);}
+#gtmk-yorha h1 {font-family: 'NieR Title'; font-size: 48px; word-spacing: 23px; letter-spacing: 5px; text-shadow: 0px 0px 3px #35322F; font-variant: small-caps;}
+#gtmk-yorha h4 {font-family: 'Akkurat'; font-size: 25px;}
+#gtmk-yorha a {text-decoration: none; color: #35322F;}
+#gtmk-yorha a:visted {text-decoration: none; color: #35322F;}
+#gtmk-yorha hr {border: 2px solid #D8D8D8; width: 100%; border-radius: 20px; margin-top: 30px;}
+#gtmk-yorha .image { width: 200px; height: 200px; background-image: url(../images/lunartear.png); background-size: 100% 100%; transition: 1s;}
+#gtmk-yorha .image:hover {transform: scale(1.2); box-shadow: 20px 20px 40px #FFF, -20px -20px 40px #FFF; transition: 1s;}
+
+footer {position: absolute; bottom: 0; text-align: center; width: 100%; padding-bottom: 20px;}
+footer .grad {/*background-color: rgba(22,22,22,0.85);*/ padding: 8px; border-radius: 8px; opacity: .3; padding-left: 10px; padding-right: 10px;}
+
+.sans {font-family: sans-serif;}
+.copy-info {position: absolute; padding: 6px; border-radius: 6px; color: rgba(187,187,187,1.00); margin-right: 5px; margin-top: 0px; right: 0; font-family: 'Akkurat', sans-serif; font-size: 9px; width: 20%; text-align: justify;}
+.half-opac {opacity: 0.7; filter: opacity(0.7);}
+
+.footer-scaling {transform: scale(0.9); transition: 0.2s;}
+/* .footer-scaling:hover {transform: scale(1.1); transition: 0.2s;} */
+
+.button {border-radius: 4px; font-family: 'NieR HUD'; padding: 8px; background-color: #8e8e8e ; width: 55%; transition: 0.3s; color: #0E0E0E;}
+.button:hover {opacity: 1; transform: scale(1.12); transition: 0.3s; cursor: not-allowed; background-color: #222; color: #D8D8D8;}
+.button:active {background-color: rgba(255, 63, 66, 1.00); color: rgba(255,255,255,1.00); transition: 0s;}
+
+.song-title {width: 25%; margin-top: 10px; margin-left: 10px; background-color: rgba(0,0,0,0.5); padding: 6px; border-radius: 10px; font-family: 'Akkurat', sans-serif; font-size: 13px; opacity: 0.8; border: 2px solid rgba(255,255,255,.9);}
+
+#gtmk-yorha .debug {font-family: 'Monaco Code', monospace; font-size: 12px; color: rgba(0,74,175,1.00); cursor: pointer; transition: color 0.3s;}
+#gtmk-yorha .debug:hover {color: rgba(59,142,255,1.00); transition: color 0.3s;}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}

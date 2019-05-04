@@ -1,0 +1,25 @@
+@font-face {
+	font-family: 'Interfearence';
+	src: url("../fonts/Interfearence.ttf");
+}
+
+body {background-color: rgba(0,0,0,1.00);}
+
+.logic-center {
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    text-align: center;
+}
+
+.main-text {
+	font-size: 72px;
+	font-family: 'Interfearence';
+    text-transform: uppercase;
+    color: rgba(255,255,255,1.00);
+    text-shadow: 6px 0px 20px #FF0000, -6px 0px 20px #FF0000;
+}
+
+hr {border: 2px solid rgba(255,255,255,1.00); box-shadow: 6px 0px 20px #FF0000, -6px 0px 20px #FF0000;}

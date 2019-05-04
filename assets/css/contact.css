@@ -1,0 +1,52 @@
+@font-face {font-family: 'Akkurat'; src: url("../fonts/Akkurat.ttf");}
+
+body {font-family: 'Akkurat', sans-serif; background-color: #C8C2AA;}
+
+*:focus {
+    outline: none;
+}
+
+input[type=text], select, textarea {
+  	width: 100%;
+  	padding: 12px;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+  	margin-top: 6px;
+  	margin-bottom: 16px;
+  	resize: vertical;
+  	font-family: 'Akkurat', sans-serif;
+}
+
+input[type=submit] {
+  	border: 2px solid #C8C2AA;
+  	background-color: #111;
+  	color: white;
+  	padding: 12px 20px;
+  	border-radius: 4px;
+  	cursor: pointer;
+  	font-weight: bold;
+  	transition: background-color 0.3s;
+}
+
+input[type=submit]:hover {
+  	background-color: #C8C2AA;
+	color: #111111;
+  	transition: background-color 0.3s;
+}
+
+.container {
+  	top: 50%; left: 50%;
+  	transform: translate(-50%, -50%);
+  	position: absolute;
+  	border-radius: 5px;
+  	background-color: #111;
+  	padding: 20px;
+  	width: 50%;
+  	color: white;
+}
+
+h1 {text-align: center;}
+.fl-right {float: right;}
+.al-right {text-align: right;}
+.small-tip {font-size: 13px; color: grey; margin-top: 0px;}

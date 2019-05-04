@@ -1,0 +1,531 @@
+/* -------------------------------------------------------------------------------------------*/
+/* 
+                                 .                  .                                   
+                                  +h                  d-                                  
+                                  mo:                /ho                                  
+                                 :M-s                dh+.                                 
+                                 yM-s`              .Mh.+                                 
+                                 NM-::      ++      +Mh s                                 
+                                -MM-`o     `mo      hMh s                                 
+                                /MM- y     +N-/     mMh +-                                
+                                +MM- y     dN s     NMh :/                                
+                                sMM- y    `MN s    `MMh -+                                
+                                yMM- s`   -MN +-   .MMh .o                                
+                                hMM- o.   :MN -/   -MMh `s                                
+                                dMM- +- + /MN .o + :MMh  y                                
+                                mMM- /::M`+MN `o.M-/MMh  y                                
+                                mMM- //sM/+MM `o+Ms+MMh  y                                
+                               `/+ds++-oNy+MM `oyNo:oyd/++`                               
+                              yMMN+-mMMm:ddMM `dd/NMMd-+MMMs                              
+                              //sNmyMy+o-dMMM  Md:o+yMyNNo//                              
+                                 .NMo``dNhsMM  shNd``sMN.                                 
+                                 mMsMo  . /mM./: .  sMsMd                                 
+                          :+/.   /Mo+N/.smms//smms./N/sM:   ./+:                          
+                        .:MMMd-.` +Ny/hd+.sMssMs.+dh:yN/ `.-dMMM:.                        
+                        d.mMM.mMN. .yNs/oh.mMMm.h+/yMy. -NMm.MMm.d                        
+                        +s+MM.NMMo /mmohmh`mMMm`dmhomm: oMMN.MM+s+                        
+                     /dmds+MMh:NMs/MM+   :yMMMMy:   oMM/sMN:hMMs:o/+/                     
+                  `oNMNy:/NMMMm/ym:yho.. `/sMMs/` ..ohs:my/mMMMMd/. `//`                  
+                .sNdo- `-h//ohMMo/MmdmMM+/sNMMNs/+MMmdmM/sMMho//NMMms/`:/.                
+              -yho/:::::`     .dM/hMMMMMmy//MM/+ymMMMMMh/Md.     .:+shmdoo/-              
+            :ys/:-`          ./hM/yMMMMMMMM.hh.MMMMMMMMh:dy/.          `-/oss:            
+           `                `NMMy yo.``./yNm--mNy/.``.oMo  `s`                `           
+                            yMMs  -+      oMN`o+      oMMh` `o                            
+                           :MM+ `/:      yMMM  `o      :mMm. ::                           
+                          `mM/ //        /MMM  ./        +NN: o`                          
+                          sN:-/`          NMM  +          `sMo`+                          
+                         -N/+.            oMM `+            .hh/-                         
+                         ho:              .MM /.              :ys                         
+                        ++                 hM o                 ++                        
+                        `                  :M-:                  `                        
+                                            mo                                            
+                                            ++                                            
+                                            ``                                            
+                        G  L  O  R  Y    T  O    M  A  N  K  I  N  D
+*/
+/* -------------------------------------------------------------------------------------------*/            
+
+
+
+
+            /* -- ------------------------ -- */
+            /* -- Importing external fonts -- */
+            /* -- ------------------------ -- */
+
+@font-face {font-family: 'NieR Title'; src: url("../fonts/Benguiat Book.ttf");}
+@font-face {font-family: 'NieR HUD'; src: url("../fonts/SCE-PS3-RD-R-LATIN.TTF");}
+
+            /* -- ------------------------ -- */
+            /* -- ------------------------ -- */
+            /* -- ------------------------ -- */
+
+
+
+@keyframes YORHAUNITDECEASEDBLINKSCORE {
+    0% {background-color: rgb(77, 73, 62);}
+    25% {background-color: rgba(172,27,27,1.00);}
+    50% {background-color: rgb(77, 73, 62);}
+    75% {background-color: rgba(172,27,27,1.00);}
+    100% {background-color: rgb(77, 73, 62);}
+    }
+
+body, html {
+    /* background-image: url(); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    background-color: #C8C2AA;
+    background-image: -webkit-linear-gradient(left, transparent, transparent 3px, rgba(0,0,0,.07) 4px),
+    -webkit-linear-gradient(transparent, transparent 3px, rgba(0,0,0,.07) 4px);
+    background-image: -o-linear-gradient(left, transparent, transparent 3px, rgba(0,0,0,.07) 4px),
+    -o-linear-gradient(transparent, transparent 3px, rgba(0,0,0,.07) 4px);
+    background-image: linear-gradient(to right, transparent, transparent 3px, rgba(0,0,0,.07) 4px),
+    linear-gradient(transparent, transparent 3px, rgba(0,0,0,.07) 4px);
+    color: #4D493E;
+    }
+
+::-webkit-scrollbar { 
+    display: none; 
+    }
+
+#kopfbereich {
+    top: 0;
+    left: 0;
+    /*background: linear-gradient(130deg, #4D493E 1%, #C8C2AA 50%);*/
+    background-color: rgba(77,73,62,1.00);
+    width: 100%;
+    height: 100px;
+    z-index: 2
+    }
+
+#kopfbereich .header-content-text {
+    padding-bottom: 0;
+    padding-left: 50px;
+    padding-right: 0;
+    font-family: 'NieR Title';
+    text-transform: uppercase;
+    letter-spacing: 25px;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    word-spacing: 5px;
+    padding-top: 15px;
+    }
+
+    
+
+#kopfbereich .useraccounts {
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 25px;
+    word-spacing: 5px;
+    padding-top: 15px;
+    position: absolute;
+    font-family: 'NieR HUD';
+    font-size: 17px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-align: right;
+    top: 12px;
+    right: 10px;
+    margin: 0;
+    }
+
+#useraccounts {
+    position: fixed;
+    bottom: 0;
+    z-index: 9;
+    background-color: #0d0e0f;
+    padding: 15px;
+    padding-bottom: 7px;
+    border-radius: 9px;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    }
+
+#useraccounts a {
+    color: #FFF;
+    text-decoration: none;
+    transition: color 0.5s;
+    }
+
+#useraccounts a:hover {
+    color: rgba(33,99,170,1.00);
+    transition: 0.5s;
+    }
+
+.fa-user {
+    color: grey;
+    transition: 0.5s;
+    }
+
+#kopfbereich .useraccounts a {
+    color: #c8c2aa;
+    text-decoration: none;
+    }
+
+#kopfbereich .useraccounts a:hover {
+    color: #FFF;
+    }
+
+#kopfbereich .fa {
+    color: #c1bba4;
+    }
+
+
+#navibereich {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    /* border: 1px solid #ccc; */
+    background-color: #0D0E0F;
+    width: 200px;
+    min-height: 400px;
+    z-index: 2;
+    border-right: 2px solid #C8C2AA;
+    border-bottom: 2px solid #C8C2AA;
+    }
+
+#textbereich {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100px;
+    padding-left: 210px;
+    padding-right: 210px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    height: 100%;
+    overflow-y: auto;
+    background: rgb(26, 28, 33);
+    background-color: #C8C2AA;
+    background-size: 4px 4px;
+    background-image: -webkit-linear-gradient(left, transparent, transparent 3px, rgba(0,0,0,.07) 4px),
+    -webkit-linear-gradient(transparent, transparent 3px, rgba(0,0,0,.07) 4px);
+    background-image: -o-linear-gradient(left, transparent, transparent 3px, rgba(0,0,0,.07) 4px),
+    -o-linear-gradient(transparent, transparent 3px, rgba(0,0,0,.07) 4px);
+    background-image: linear-gradient(to right, transparent, transparent 3px, rgba(0,0,0,.07) 4px),
+    linear-gradient(transparent, transparent 3px, rgba(0,0,0,.07) 4px);
+    color: #4D493E;
+    }
+
+            /* ------------------------------------------------------ */
+            /* -- Text Area specific style setting, main edit /MS/ -- */
+            /* ------------------------------------------------------ */
+
+    #textbereich code {background-color: #4d493e; color: white; font-size: 80%;}
+    #textbereich .highlight-title {background: #35322F; color: #FFFFFF; padding-right: 0px; padding-left: 5px; border-radius: 5px; padding-bottom: 1px; padding-top: 1px;  font-weight: bold;}
+    #textbereich a {color: #4D493E;}
+    #textbereich .external-link:after {content: '\00a0 \00a0 [externer Link]'; color: #75757A; font-size: 9px;}
+    #textbereich p {font-family: 'NieR HUD', sans-serif; color: #4D493E; font-size: 16px;}
+    #textbereich .quote-cut {border-top: 1px solid #0d0e0f; width: 25%;}
+    #textbereich .title-textarea {font-family: 'NieR Title'; font-stretch: wider; letter-spacing: 5px; font-size: 32px; font-weight: bold; text-transform: uppercase; text-align: center;}
+    #textbereich .title-sub {font-family: 'NieR Title'; font-size: 28px; font-weight: bold;}
+    #textbereich .hint a {text-decoration: none; color: #007EEE;}
+    #textbereich .spoiler > .charref-spoiler {text-decoration: none; color: #4d493e;}
+    #textbereich .spoiler > .charref-spoiler:hover {text-decoration: none; color: #007EEE; transition: 0.3;}
+    #textbereich .char-img {align-content: center;}
+    #textbereich .spoiler {background-color: #4d493e; color: #4d493e; transition: 0.5s; border-radius: 12px; padding: 6px; width: 100%;}
+    #textbereich .spoiler:hover {background-color: #0d0e0f; color: white; transition: 0.5s; border-radius: 5px; width: 100%;}
+    #textbereich .spoiler-pre-warn {font-family: 'NieR HUD'; background-color: #0d0e0f; padding: 5px; font-size: 16px; color: white; border-radius: 3px;}
+    #textbereich .hint {background: #0d0e0f; color: white; padding: 6px; box-shadow: 5px 5px 0px #4d493e; transition: 0.3s;}
+    #textbereich .intel-desc {border-left: 0; background-color: #4d493e; box-shadow: 5px 5px 0px #0d0e0f; color: white; padding-top: 1px; padding-bottom: 12px;}
+    #textbereich .intel-desc > p {color: white;}
+    #textbereich .cutter {border-top: 1px solid #0d0e0f; width: 50%;}
+    #textbereich .lang-jp {font-family: "M PLUS 1p";}
+    #textbereich .intel-desc h3 {font-family: 'Georgia';}
+    #textbereich .charref {color: #007FFF; transition: 0.3s;}
+    #textbereich .charref:hover {text-decoration: none; text-shadow: 1px 1px 1px #0d0e0f; transition: 0.3s;}
+    #textbereich .highlight-countup {font-weight: 700; font-stretch: wider; font-family: 'NieR Title'; color: #4D493E; font-size: 20px;}
+    #textbereich #niertime, #lunartime {font-size: 16px; font-weight: normal; letter-spacing: normal; font-family: 'NieR HUD'; background: #4d493e; color: #FFFFFF; padding-right: 5px; padding-left: 5px; border-radius: 0px; padding-bottom: 3px; padding-top: 3px; border: 2px solid #0d0e0f;}
+    #textbereich .char-img {width: 100px; transition: 0.6s; cursor: zoom-in;}
+    #textbereich .char-img:hover {position:relative; width: 300px; height: auto; display: block; z-index: 999; transition: 0.6s;}
+    #textbereich .hint:hover {box-shadow: 5px 5px 0px #6B6962; transition: 0.3s; font-size: 110%;}
+    #textbereich .loc-img {width: 300px; transition: 0.6s; cursor: zoom-in;}
+    #textbereich .loc-img:hover {position:relative; width: 1000px; height: auto; display: block; z-index: 999; transition: 0.6s;}
+    #textbereich ruby > rt {font-size: 12px; letter-spacing: 6px;}
+    #textbereich .blur-spoiler > p {filter: blur(100%);}
+    #textbereich .blur-spoiler > p:hover {filter: blur(0); transition: 0.5s;}
+    .back-to-top {position: fixed; bottom: 0; right: 0; z-index: 10; background-color: #0d0e0f; padding-bottom: 7px; border-radius: 9px; margin-bottom: 15px; margin-right: 15px;}
+    .fa-arrow-alt-circle-up {color: grey;}
+
+
+            /* -- ------------------------------------------------ -- */
+            /* -- ------------------------------------------------ -- */
+            /* -- ------------------------------------------------ -- */
+
+            /* --------------------------- */
+            /* News Area Main Edit Section */
+            /* --------------------------- */
+
+#newsbereich {
+    position: fixed;
+    right: 0px;
+    top: 100px;
+    background-color: #0D0E0F;
+    border-left: 2px solid #C8C2AA;
+    border-bottom: 2px solid #C8C2AA;
+    border-top: 2px solid #0d0e0f;
+    width: 200px;
+    min-height: 400px;
+    z-index: 2;
+    }
+
+    #newsbereich .news-headline {text-align: center; color: white; text-decoration: underline; font-weight: bold;}
+    #newsbereich .news-item {color: white; list-style: none; font-style: italic; text-align: center; width: 90%; align-content: center;}
+
+            /* --------------------------- */
+            /* --------------------------- */
+            /* --------------------------- */
+
+
+            /* ----------------------------------- */
+            /* -- Footer Area Main Edit Section -- */
+            /* ----------------------------------- */
+
+#fussbereich {
+    position: fixed;
+    padding-bottom: 18px;
+    padding-top: 0.5px;
+    bottom: 0;
+    left: 0;
+    /* border: 1px solid #ccc; */
+    text-align: center;
+    font-family: 'Arial';
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    height: 50px;
+    z-index: 2;
+    }
+
+    #fussbereich p {font-family: 'Arial'; color: white;}
+
+
+        /* --------------------------------------- */
+        /* -- Styling Section of Left-Side Menu -- */
+        /* --------------------------------------- */
+
+    #navibereich .nav {text-align: right; list-style-type: none; margin: 20px 5px;}
+    #navibereich .nav > li {float: none;}
+
+#navibereich .nav > li > a {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    display: block;
+    transition: all 0.2s;
+    line-height: 35px;
+    text-decoration: none;
+    padding-right: 10px;
+    }
+
+#navibereich .nav > li > a.active {
+    font-weight: 700;
+    text-shadow: 1px 1px black, 2px 2px white, 3px 3px black;
+    color: #FFF;
+    }
+
+#navibereich .nav > li > a:hover {
+    font-weight: 700;
+    font-style: bold;
+    background: #4D493E;
+    text-shadow: 1px 1px, grey, 2px 2px grey, 3px 3px grey;
+    color: #FFF;
+    transition: all 0.2s ease-out 0s;
+    }
+
+#navibereich .nav > li > a:focus {
+    font-weight: 700;
+    font-style: bold;
+    text-shadow: 1px 1px, grey, 2px 2px grey, 3px 3px grey;
+    color: #2A2A2A;
+    background: #C8C2AA;
+    transform: background rotate(180deg);
+}
+
+        /* --------------------------------------- */
+        /* --------------------------------------- */
+        /* --------------------------------------- */
+
+::selection {
+    background-color: #4d493e;
+    color: #FFF;
+    }
+
+.highlight-default {
+    background: linear-gradient(135deg, #21d4fd 1%, #b721ff 75%);
+    color: black;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    }
+
+.highlight-nograd {
+    background: rgba(255, 174, 0, 1.00);
+    color: #1a1c21;
+    padding-right: 0px;
+    padding-left: 5px;
+    border-radius: 5px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    font-weight: bold;
+    }
+
+.showcase {
+    margin: 10px 50px;
+    line-height: 35px;
+    }
+
+.hr-text {
+    background-color: #2A2A2A;
+    height: 4px;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    }
+
+.hr-thin {
+    background-color: #2A2A2A;
+    height: 0.5px;
+    border: 0;
+    border-radius: 2px;
+    width: 50%;
+    margin-top: 30px;
+    }
+
+.warning {
+    border-radius: 5px;
+    color: rgba(216,216,216,1.00);
+    padding: 2.5px;
+    animation-name: YORHAUNITDECEASEDBLINKSCORE;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    }
+
+.critic-list li {
+    display: inline-block;
+    font-size: 19px;
+    font-family: 'NieR HUD';
+    }
+
+.npc-info {
+    background-color: #FFF;
+    padding: 2px;
+    border-radius: 5px;
+    transition: 0.5s;
+    }
+
+    .npc-info:hover {background-color: #D5D5D5; transition: 0.5s;}
+    .quote {border-left: 8px solid #0d0e0f; background-color: rgba(44, 46, 48, 1.00); color: white; margin-left: 50px; font-family: 'NieR HUD';}
+
+
+
+            /* ----------------------------------------- */
+            /* -- FLEX BOX SCREENSHOT CONTROL (error) -- */
+            /* ----------------------------------------- */
+
+    .screenshots {margin: 30px; display: flex; flex-direction: row; flex-wrap: nowrap; width: 300px; height: 80px; padding: 10px; margin-top: auto;}
+    .screenshots > .screenshot-showcase {flex:1 1 auto; text-align: left; margin: 10px;}
+    .screenshot-showcase {font-family: 'NieR HUD';}
+
+            /* ----------------------------------------- */
+            /* ----------------------------------------- */
+            /* ----------------------------------------- */
+
+    #textbereich .highlight-for-later-edit {background-color: yellow;}
+
+#dialog-overlay {
+    /* fill screen */
+    width:100%; 
+    height:100%;
+    
+    /* transparency for different browsers */
+    filter:alpha(opacity=80); 
+    -moz-opacity:0.8; 
+    -khtml-opacity: 0.8; 
+    opacity: 0.8; 
+    background:#000; 
+
+    /* make sure it appear behind the dialog box but above everything else */
+    position:absolute; 
+    top:0; left:0; 
+    z-index:3000;
+
+    display: none;
+    }
+
+
+#dialog-box {
+    /* css3 drop shadow */
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    
+    /* css3 border radius */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    
+    background:#eee;
+    /* styling of the dialog box */ 
+    width:328px; 
+    
+    /* >> high z-index << */
+    position:absolute; 
+    z-index:5000; 
+
+    /* hide it by default */
+    display:none;
+    }
+
+#dialog-box .dialog-content {
+    text-align:left; 
+    padding:10px; 
+    margin:13px;
+    color:#666; 
+    font-family:arial;
+    font-size:11px; 
+    }
+
+a.dialog-button {
+    margin:10px auto 0 auto;
+    text-align:center;
+    display: block;
+    width:50px;
+    padding: 5px 10px 6px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1;
+    background-color: #007FFF;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    position: relative;
+    cursor: pointer; 
+    }  
+
+a.dialog-button:hover {
+    background-color: #73B9FF;
+    text-decoration: none;
+    color: white;  
+    }
+
+a.dialog-button:active {
+    background-color: #004993;
+}
+
+#dialog-box .dialog-content p {
+    font-weight:700; margin:0;
+    }  
+
+#dialog-box .dialog-content ul {
+    margin:10px 0 10px 20px; 
+    padding:0; 
+    height:50px;
+    }

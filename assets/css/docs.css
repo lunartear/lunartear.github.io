@@ -1,0 +1,8 @@
+:root {
+	--mainBackground: #333333;
+}
+
+html, body {
+	background-color: var(--mainBackground);
+	padding: 0; margin: 0;
+}
