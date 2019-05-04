@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up</title>
+	<link rel="stylesheet" type="text/css" href="../assets/css/useraccountforms.css">
+	<script type="text/javascript" src="../assets/javascript/registeralert.js"></script>
+	<script type="text/javascript" src="../assets/javascript/capslockdetect.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+	<div class="login-field">
+			<form>
+  				<div class="login-container">
+    				<h1>Benutzerkonto anlegen</h1>
+    				<p style="font-size: 12px; text-align: center; font-weight: bold;">Bitte füllen Sie die Felder aus, um ein Benutzerkonto anzulegen.</p>
+    				<hr>
+
+    				<label for="username"><b>Benutzername</b> <span style="color: red;">*</span></label>
+    				<input type="text" placeholder="" name="username" required autocomplete="off">
+
+    				<label for="email"><b>E-Mail-Adresse</b> <span style="color: red;">*</span></label>
+    				<input type="text" placeholder="" name="email" required autocomplete="off">
+
+    				<label for="psw"><b>Passwort</b> <span style="color: red;">*</span> </label>
+    				<input type="password" placeholder="" name="psw" required autocomplete="off" onkeypress="feststellcheck(event)">
+
+    				<label for="psw-repeat"><b>Passwort wiederholen</b> <span style="color: red;">*</span></label>
+    				<input type="password" placeholder="" name="psw-repeat" required autocomplete="off" onkeypress="feststellcheck(event)">
+    				<div id="upperCase" style="visibility:hidden"><i class="fas fa-exclamation-triangle"></i> — Die Feststelltaste ist aktiv.</div>
+    				<p><span style="color: red;">*</span> Pflichtfelder</p>
+    				<hr>
+    				<p>Mit dem Erstellen eines Benutzerkontos stimmen Sie unseren <a href="#">Nutzungs- und Datenschutzbestimmungen</a> zu.</p>
+
+    				<button type="submit" class="registerbtn" onclick="regalert()">Benutzerkonto erstellen</button>
+  				</div>
+			</form>
+			<br><a class="notice" href="login.html"><div class="extended-login-note"><p><b>Haben Sie bereits ein Benutzerkonto?</b><br><b>Klicken Sie hier.</b></p></div></a>
+	</div>
+</body>
+</html>
