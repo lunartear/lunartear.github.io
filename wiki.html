@@ -1,0 +1,655 @@
+<!DOCTYPE html public "-//W3C//DTD HTML 4.1 Transitional//EN">
+<html lang="de">
+ <head>
+        <title>Lunar Tear Project</title>
+        <meta name="Author" content="Lunar Team Editor Team">
+        <meta name="copyright" content="">
+        <meta name="robots" content="index, follow">
+        <meta name="description" content="Lunar Tear Project – Eine Wiki für NieR: Automata">
+        <meta name="keywords" content="lunar tear, nier, nier automata, nier:automata, wiki nier, wiki">
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="assets/css/wiki.css">
+        <link rel="icon" type="image/png" href="assets/favicon/lunar-tear.png" />
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,700,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
+        <!-- Stylesheet for Japanese typography -->
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
+
+        <!-- LINK JS-Library JQUERY -->
+        <script src="../jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script>
+        <script src="../jQueryAssets/jquery.ui-1.10.4.progressbar.min.js" type="text/javascript"></script>
+        <script scr="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+        <!-- Link SS-Library BOOTSTARP f. auto. menu control -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Icon stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css" integrity="sha384-QokYePQSOwpBDuhlHOsX0ymF6R/vLk/UQVz3WHa6wygxI5oGTmDTv8wahFOSspdm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/regular.css" integrity="sha384-FKw7x8fCxuvzBwOJmhTJJsKzBl8dnN9e2R4+pXRfYoHivikuHkzWyhKWDSMcGNK8" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css" integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css" integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
+        <link href="../jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+        <link href="../jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+        <link href="../jQueryAssets/jquery.ui.progressbar.min.css" rel="stylesheet" type="text/css">
+
+        <!-- Link own JS-Library >> standard.js -->
+        <script type="text/javascript" src="javascript/standard.js"></script>
+     
+        <!-- oSCR // block inspect as of 04/26/2019 -->
+        <script type="text/javascript" src="assets/scripts/javascript/niertime.js"></script>
+        <script type="text/javascript" src="assets/scripts/javascript/lunartime.js"></script>
+        <script type="text/javascript" src="assets/scripts/javascript/timelunar.js"></script>
+        <script type="text/javascript" src="assets/scripts/javascript/stickyreload.js"></script>
+        <script type="text/javascript" src="assets/scripts/javascript/respondheader.js"></script>
+        <script type="text/javascript" src="assets/scripts/javascript/dialogbox.js"></script>
+        <script type="text/javascript" src="assets/scripts/javascript/blockinspect.js"></script>
+    	<script type="text/javascript" src="assets/scripts/javascript/yrhascroll.js"></script>
+        <!--
+        <script type="text/javascript">
+          function kysource() {
+            window.location = "view-source:" + window.location;
+          }
+        </script>
+        -->  
+ </head>
+	
+ 	<!-- DO NOT REMOVE -->
+	<!--
+	<body onload="popup('<center><h4><strong><em>Warnung</em></strong></h4><br>Diese Website befindet sich noch im Aufbau. Sie stellt nicht das fertige Produkt dar und sollte mit Vorsicht begutachtet werden.<br><br><strong><em>Inspect Element</em></strong>, <strong><em>F-12</em></strong> und <strong><em>CTRL + SHIFT + I</em></strong> sind zum Schutz des Source Codes deaktiviert.<br></center>')">
+	-->
+	<!-- NEW BODY TAG DO/AF: 5/4/19 2:49 PM -->
+	
+ <body>
+        
+     
+     
+             <!--   G L O R Y   T O   M A N K I N D   -->
+             <!--
+                                                                                                            
+                                                                                                    
+                                                                                                    
+                                      /o                    s.                                      
+                                      dy`                  .ds                                      
+                                     :M:+                  sdo.                                     
+                                     yM.y                 `Nd.+                                     
+                                    `NM.o.       ``       /Md y                                     
+                                    :MM.-+       o+       yMd s`                                    
+                                    oMM.`y      `Ns`      mMd /:                                    
+                                    hMM. h      +N-/     `MMd -o                                    
+                                    dMM. y`     mN y     .MMd `y                                    
+                                    NMM. s.    .MN s`    -MMd  h                                    
+                                    MMM. o-    /MN /:    /MMd  h                                    
+                                   `MMM. +:    oMN .o    +MMd  h                                    
+                                   .MMM. //    sMN  y    oMMd  h                                    
+                                   -MMM. :+ /. yMN  y -/ sMMd  y`                                   
+                                   :MMM. .o ds yMN  y yd sMMd  s.                                   
+                                   :MMM. .s.MN hMN  y NM.yMMd  o-                                   
+                                   -ydM:/o//NM.hMM  y-MN/+dNd.+s-                                   
+                                 `ohho/++hhy+hodMM  yoh+yhy+o/shho`                                 
+                                 yNNMMs:MMNNm-MMMM  dM-NNNMM-yMMNNs                                 
+                                   `:mNNm/`+++NMMM  dN++/`/mNMd:`                                   
+                                     /MMy- :md-dMM  o:mm: -yMM/                                     
+                                    -MN+Mh     odM-+/     dN+NM.                                    
+                             :+/-    yM+/Mo`+dMm+//+mMd+`sM:oMs    -/+:                             
+                           `+MMMM+    yMs:dm+..mM++Mm..omh:yMs    +MMMM/`                           
+                          -y-MMM/+MNy  /mNo:sdh-MMMM-hdo:oNm:  yNM+/MMM-y.                          
+                           m-yMM-dMMN` `sMmNho/ MMMM /sdNmMo` `NMMh-MMy:m                           
+                        .+:ho/MMs:NMM+-mMy``:o//MMMM/+o:``hMm-+MMN:sMM++h:/.                        
+                      -yNMMd-hMMMs:mM:sMMh    sNNMMNNs    dMMo:Mm:sMMMm::``:+-                      
+                    :hNNho-`hNMMMMd/sm+os+/o: `.yMMy.` :o/oso+ms/dMMMMNNdo:``-/:                    
+                 `/dmy+.`.::y..:odMN++MNNNMMm syNMMNys NMMNNNM++NMdo:..hmMNmh+--/:`                 
+               `+yyo/://:-.``    `+NN.NMMMMMMdy/oMMo/ydMMMMMMm.MN+`    ``.:+shddyoo:`               
+             .+ys+:..`          `:+NM`mMMMMMMMMm`dd`mMMMMMMMMm`dd/:`          `.-/osy+.             
+             ..`                yNMMo Ns/:-:+ymMs--yMmy/:-:/sMs`..:o                `..             
+                               :MMM+  //      .hMd.hh.      /MMy`  /:                               
+                              `mMN/  -/.     `yNMM `-+`     .yNMd-  s`                              
+                              sMN/ ./-       `NMMM   o`       :dMN: .+                              
+                             -MN:`/:`         sMMM  `o         `+mN+ /-                             
+                             dm-:/.           .MMM  /.           .sNs`o                             
+                            +m/+-              dMM  o              -hh:/                            
+                           .do:                /MM -/                /yy.                           
+                           s+`                 `NM o                  `+s                           
+                          `.                    sM`o                    .`                          
+                                                .N+.                                                
+                                                 ho                                                 
+                                                 /:                                                 
+                                                 `                                                  
+                                                                                                    
+                                                                                                    
+        -->
+        <div id="dialog-overlay"></div>
+        <div id="dialog-box">
+            <div class="dialog-content">
+              <div id="dialog-message"></div>
+              <a href="#" class="dialog-button">Close</a>
+            </div>
+        </div>
+        <div id="kopfbereich">
+            <p class="header-content-text">Lunar Tear Archives</p>
+        </div> <!-- End header -->
+     
+        <div id="useraccounts">
+            <p class="useraccounts"><a class="charref" href="login.html"><i class="fa fa-user"></i> Einloggen</a><br><a class="charref" href="register.html"><i class="fa fa-user"></i> Registrieren</a></p>
+        </div>
+        <div class="back-to-top">
+            <i class="fas fa-arrow-circle-up" onclick="yorhaTop()"></i>
+        </div>
+
+        <div id="navibereich">
+        <ul id="nav" class="nav">
+        <li id="main-menu"><a id="main_menu_item_home" href="./progress.html" class="">Entwicklung</a></li>
+        <!-- <li id="main-menu"><a id="main_menu_item_one" href="">[OFF] Charaktere</a></li>
+        <li id="main-menu"><a id="main_menu_item_two" onClick="window.location='view-source:' + window.location.href">[OFF] View Source</a></li>
+        <li id="main-menu"><a id="main_menu_item_three" href="" class="">[OFF] ? BOTTOM</a></li>
+        -->
+        </ul>
+        </div> <!-- End nav area -->
+
+        <div id="textbereich">
+        <!--   W A S   I S T   D A S   L U N A R   T E A R   P R O J E C T ?   -->
+        <p class="title-textarea" id="overview-lunartear">Was ist das <span class="highlight-title">Lunar Tear Project</span>?</p> 
+        <p>Das <span class="">Lunar Tear Project</span> ist eine Seite, die sich mit der NieR-Spielereihe – in diesem Falle NieR: Automata – beschäftigt.</p><br>
+            
+        <!-- [START] niertime and lunartime section [START] -->
+        <center>
+        <hr class="quote-cut">
+        <span class="highlight-countup">NieR:Automata wurde vor<br>
+        <span id="niertime"></span><br>
+        auf Steam veröffentlicht.</span>
+        <br><br>
+        <span class="highlight-countup">Das YoRHa-Archiv “Lunar Tears” wurde hingegen erst vor<br>
+        <span id="lunartime"></span><br>aktiv.
+        </span>
+        <hr class="quote-cut">
+        </center>
+        <!-- [END] niertime and lunartime section [END] -->
+        
+        <p>Bevor Sie Ihren Weg durch diese Seite bahnen, behalten Sie bitte im Hinterkopf, dass dieses Projekt als eine Art Wiki dienen wird und Tipps, Tricks, Hilfestellungen, Leitfäden, Videos, etc. zur Verfügung stellen wird, um NieR: Automata zu 100 % abschließen zu können.<br><br><center><span style="font-size: 17px; font-family: 'NieR HUD';"><span class="warning" style="padding: 4px; padding-left: 10px; padding-right: 10px;">Kurzgesagt: Diese Seite wird Spoiler und Plots verraten!</span></span></center></p><br><br>
+    <div id="Progressbar1"></div>
+<hr class="hr-text" noshade /> 
+        
+        <!--   W A S   I S T   N I E R :   A U T O M A T A ?   -->
+        <p class="title-textarea" id="overview-whatis">Was ist <span class="highlight-title">NieR: Automata</span>?</p>    
+        <p>NieR: Automata (japanisch:
+            <span class="lang-jp">
+                <ruby>
+                    ニーア オートマタ
+                        <rt>
+                          NieR:Automata
+                        </rt>
+                </ruby>
+            </span>, <em>Eigenschreibweise:</em> <strong>NieR:Automata</strong>) ist ein von Platinum Games entwickeltes und durch Square Enix am 7. März 2017 veröffentlichtes <em>post-apokalyptisches</em> Action-Rollenspiel.</p>
+            
+        <p><em>Nier: Automata</em> spielt in demselben Universum wie <em>Nier</em>, einem Ableger der <em>Drakengard</em>-Reihe. Die Handlung bettet sich inmitten eines Stellvertreterkrieges zwischen Maschinen, die von außerirdischen Eindringlingen gebaut wurden, und den Resten der Menschheit ein. Die Story folgt den Missionen eines Kampf-Androiden und seines Begleiters.</p>
+
+        <p>Die Produktion begann 2014 mit <strong>Taro Yoko</strong> als leitendem Entwickler, der diesen Posten schon bei <em>Nier</em> innehatte, <strong>Produzent Yosuke Saito</strong> und den <strong>Komponisten Keiichi Okabe</strong> und <strong>Keigo Hoashi</strong>. <strong>Atsushi Inaba</strong> war als Koproduzent für Platinum Games tätig, während Square Enix den <strong>Designer Akihiko Yoshida</strong> für die Gestaltung der Hauptcharaktere engagierte. Das Ziel war, ein neues Spiel der <em>Nier-Serie</em> im Sinne des Originals zu gestalten, während es eine tiefere Handlung und ein flüssigeres Gameplay besitzen solle.</p>
+            
+        <p>Das Spiel erhielt weitgehend positive Bewertungen</p>
+        <br>
+        <center><ul class="critic-list">
+            <li><strong>Metacritic:</strong> 88 | </li>
+            <li><strong>Steam:</strong> 9/10 | </li>
+            <li><strong>Gamespot:</strong> 9/10 | </li>
+            <li><strong>TrustedReviews:</strong> 4/5</li>
+        </ul></center>
+            
+        
+        <hr class="hr-text" noshade />
+        
+        <!--   N I E R :   A U T O M A T A   S T A R T   S C E N E   -->
+        <p class="title-textarea" id="overview-begin">Der Anfang von <span class="highlight-title">NieR: Automata</span></p>
+        <p>2B wird zusammen mit einer Staffel anderer YoRHa-Einheiten in <span class="highlight-for-later-edit">die Fabrik</span> geschickt, um ein Ziel der <span class="highlight-for-later-edit">Goliath-Klasse</span> zu eliminieren. Nachdem sie die einzige Überlebende des Angriffs wird, trifft sie sich mit ihrem zugewiesenen Scanner <span class="highlight-for-later-edit">9S</span>. Das Paar erkundet die Fabrik und kann sein Ziel erst finden, wenn es am Rande des Gebäudes zum Leben erwacht. Es kommt zu einem Kampf und 9S wird dabei schwer beschädigt. Nachdem 2B den kurzzeitig behinderten Goliath an die Spitze gebracht hat, findet sie den tödlich verwundeten 9S und wird kurzzeitig von Emotionen überwältigt, um ihn zu retten. 9S fleht sie an, ihn zu verlassen, um die Mission zu beenden, und 2B folgt zögernd. Nachdem das Ziel zerstört ist, vereinen sich 2B und 9S wieder, nur dass drei weitere <a class="charref" href="#pos-engels">Engels-Maschinen</a> auftauchen und sie angreifen. Angesichts der aussichtslosne Lage sind die beiden gezwungen, <span class="highlight-for-later-edit">ihre Black Boxes zu zünden, um die Goliaths zu zerstören.</span></p>
+            
+        <p>Es wird aufgedeckt, dass nach der Detonation ihrer Blackboxen die Daten von 2B in den Bunker zurückgeladen und in einen neuen Körper transferiert wurden, um ihr überleben zu sichern. Da es jedoch nicht genügend Bandbreite und Zeit gab, schaffte es 9S nur, die Erinnerungen von 2B mit seinen nur intakten bis zu dem Punkt zu senden, an dem er sie traf. Als sie feststellt, dass 9S sie wieder einmal vergessen hat, <span class="highlight-for-later-edit">bricht 2B ihre Faust vor Frustration zusammen.</span></p>
+            
+        <p>Nachdem ihre <span class="highlight-for-later-edit">Bootsequenz</span> von 9S betreut wurde, werden die beiden zur Erde geschickt, um Aufklärungsinformationen bereitzustellen und Kontakt mit dem Widerstandsplaneten herzustellen. Während ihrer Bemühungen bemerken 2B und 9S, wie viele ihrer Feinde der Maschinenlebensform fügsam sind, wobei einige begonnen haben, menschliche Züge anzunehmen. Dies zu sehen, stört 2B sichtlich, obwohl 9S darauf besteht, dass die Maschinen keine echten Emotionen haben. Während ihrer Operationen an der Oberfläche erleben 2B und 9S <span class="highlight-for-later-edit">die Geburt und den Kampf gegen Adam und Eva</span>, zwei menschenähnliche Maschinen, die vom Maschinennetzwerk mit der Absicht geschaffen wurden, die Geheimnisse der Menschheit zu entdecken. Sie begegnen auch <span class="highlight-for-later-edit">Pascal</span>, einer pazifistischen Maschine, die ein <span class="highlight-for-later-edit">Dorf mit gleichgesinnten Maschinenlebensformen</span> führt, und <span class="highlight-for-later-edit">A2, einem Deserteur-Androiden,</span> der vor vielen Jahren ein Teil von YoRHa war.</p>
+
+        <br/><hr class="hr-text" noshade />
+        
+        <!--   N I E R :   A U T O M A T A   G A M E   L O R E   -->
+        <p class="title-textarea" id="overview-lore">Die Lore von <span class="highlight-title">NieR: Automata</span></p>
+        <p>Die Geschehnisse von <strong>Automata</strong> spielen im Jahre 11945 A.D. (während des 14<sup>ten</sup> <em>Maschinenkrieges</em>) und ist eine indirekter Nachfolger von <strong><em>NieR: Replicant</em></strong> und<strong><em>NieR: Gestalt</em></strong>.</p>
+        
+        <p>Die <em>Events</em> in Automata erzählen davon, wie eine Alien-Invasion mit einer Armee von Maschinen einen Großteil des Lebens auf der Erde ausgelöscht hat und derzeit von der YoRHa mit Androiden bekämpft wird. Die übrigen Menschen sind zu einer Basis auf dem Mond – der Mondbasis – geflüchtet und werden von den gegen die Maschinen kämpfenden Androiden als <strong>Council of Humanity</strong> (<em>dt. „Menschenrat“</em> oder <em>„Rat der Menschheit“</em>) bezeichnet.</p>
+            
+            <!-- <blockquote class="quote" style="width: 50%;"> -->
+                <br>
+                <center>
+                <hr class="quote-cut">
+                <span style="font-size: 18px;">
+                <strong><span style="font-family: 'NieR Title';">This is why you—the YoRHa forces—exist. Glory to mankind.</span></strong> <br>
+                <em><span style="font-family: 'NieR HUD';">— Council of Humanity</span></em>
+                </span>
+                </center>
+                <hr class="quote-cut">
+                <br>
+        
+            
+        <p>In der Hoffnung, dass die Androiden die Maschinen vernichten können und das Leben auf der Erde wieder möglich wird, kämpfen sie einen scheinbar unendlichen Krieg gegen eine Armee von immer wieder neu hergestellten Robotern. Ausnahmen: [→ siehe: <a class="charref" href="#">Machine-Lifeform/special</a>]</p>
+            
+        <p>Jedoch ist nicht jeder Kontakt gleich feindlich. Unterstütz werden die YoRHa-Androiden von örtlichen Widerstandskämpfern, die ein Lager in den <strong><a class="charref" href="#">City Ruins</a></strong> errichtet haben und die auf der Erde eingesetzten Androiden mit Aufgaben, Informationen und anderen Mittel im Kampf gegen die Maschinen unterstützen.</p>
+            
+        <br/><hr class="hr-text" noshade />
+            
+        <p class="title-textarea" id="overview-locations">Orte in <span class="highlight-title">NieR: Automata</span></p>
+        <p>Automatas Geschichte spielt sich in verschiedenen Umgebungen ab.</p>
+        
+        <p>Je weiter man die Storyline von Automata verfolgt, desto mehr Schauplätze werden einem offenbart.</p>
+        
+        <!-- This section needs to be re-worked, not matching site standards -->
+        <p>
+        So gibt es beipsielsweise noch die <em>Flooded City</em> – eine Hafenregion, die überflutet wurde.<br>
+        <em>The Desert</em> – eine Stadt, die von heftigen Sandstörmen überrannt wurde.<br>
+        Das <em>Forest Kingdom</em> – ein Schloss, das sich in einer wäldlichen Umgebung befindet.<br>
+        Den <em>Amusement Park</em> – ein verlassener Freizeitpark.<br>
+        Das Fabrikgelände und deren Innenraum.
+        </p>
+        <!-- This section needs to be re-worked, not matching site standards -->
+            
+        
+        <hr class="hr-thin" noshade />
+        <p class="title-sub" style="text-align: center;">Die City Ruins</p>
+            
+        <!--
+        <p>Zu Beginn ist man in den <strong><em>City Ruins</em></strong>, einer sehr urbanen Region, in der die fehlende Präsenz von Menschen zur starken Vegetation gefühhrt hat. In den City Ruins, wo sich auch das <strong><em>Resistance Camp</em></strong> befindet, werden in der Stroy die meisten (wichtigen) <em>Events</em> stattfinden und verlaufen.</p>
+        -->
+            
+        <center>
+            <figure>
+                <img class="loc-img" src="images/20190323090425_1.jpg" width="100" alt="">
+                <figcaption>Hover to enlarge.</figcaption>
+            </figure>
+        </center>
+        <br>
+            
+        <hr class="hr-thin" noshade />
+            
+        <hr class="hr-thin" noshade />
+        
+        <p class="title-sub" style="text-align: center;">Das Resistance Camp</p>
+        <center>
+            <figure>
+                <img class="loc-img" src="images/20190323090902_1.jpg" width="100" alt="">
+                <figcaption>Hover to enlarge.</figcaption>
+            </figure>
+        </center>
+            
+        <br>
+            
+        <hr class="hr-thin" noshade />
+            
+                                <!--   T E X T   A R E A   M A I N   P A R T I A L   D I V   N O N   L I N K   -->
+        <br/><hr class="hr-text" noshade id="karak" />
+        <p class="title-textarea" id="overview-char">Charaktere in <span class="highlight-title">NieR: Automata</span></p>
+        <center><span class="hint">Die Geschite in NieR: Automata wird aus verschiedenen Sichten erz�hlt. [<a class="" href="#">? Stroy/Routes</a>]</span></center>
+
+        <hr class="cutter" id="pos-2b">
+
+                <p class="title-sub" style="text-align: center;">YoRHa No. 2 Type B</p>
+                <center>
+                <figure>
+                        <img class="char-img" src="images/x79q/YoRHa_No.2_Type_B.png" width="100" alt="">
+                        <figcaption>Hover to enlarge.</figcaption>
+                </figure>
+                </center>
+
+                <p><strong>YoRHa No. 2 Type B<sup>[2E]</sup></strong> (Battle) <em>(kurz: 2B)</em> dient als Hauptprotagonist der Route A in NieR: Automata. Sie ist eine YoRHa-Kampfeinheit, die Erschaffen wurde, um maschinelle Feidespräsenz auf der Erde zu vernichten. Dieser Auftrag wurde ihr als Teil des YoRHa-Projektes<sup>[/plot/]</sup> gegeben. Sie kämpfte während des 14. Maschinenkrieges.</p>
+
+                <p><strong>2B</strong> ist ein universeller Kampf-Android, der als Mitglied der automatisierten YoRHa-Infanterie eingesetzt wird. Sie ist mit einer Vielzahl von Waffen für den Nahkampf ausgestattet und kann mit dem Pod-Unterstützungssystem aus der Ferne angreifen. Ihre Augen werden durch ein schwarzes Militärvisier verdeckt, welches sie selten entfernt.</p>
+
+                <p><strong>2B</strong> ist eine Klinge der stillen Bestimmung. Als Kampf-Androide ermutigt sie kein leeres Geschwätz über leichtfertige Themen und ist generell zurückhaltend gegenüber anderen. Sie hat auch großen Respekt vor der Befehlskette und stellt ihre Befehle im Gegensatz zu ihrem Partner selten in Frage. 2B drückt jedoch gelegentlich einen ausgesprochen sardonischen Witz angesichts bestimmter Situationen aus und kann manchmal sogar hitzköpfig sein.</p>
+
+                <p><strong>2B</strong> ist anfällig dafür, ihre emotionslose Gestalt in bestimmten Situationen verrutschen zu lassen. Je näher sie und 9S rücken, desto geselliger und gesprächsbereiter wird sie. Zum Beispiel humorisiert sie 9S, wenn er darüber spricht, dass er nach dem Krieg mit den Maschinen mit ihr einkaufen geht, und verwendet sogar seinen bevorzugten Spitznamen <a class="charref" target="#pos-9s">“Nines”</a>, obwohl sie ihn schnell zurücknimmt. 2B zeigt auch eine dünn verschleierte Eifersucht, wenn 9S zustimmt, dem Widerstandsmitglied bei der Amnesia-Side-Quest zu helfen und ihn beschuldigt, in sie verliebt zu sein. Im letzten Kampf gegen Adam drückt sie reine Wut und rauen Hass auf den Maschinenführer aus, als sie den kritischen Zustand von 9S beobachtet und schwört, dass sie ihn töten würde.</p>
+
+                <p>In zahlreichen Momenten während ihres Abenteuers drückt 2B Frustration und Schmerz mit ihrer wahren Rolle in Bezug auf 9S aus und hasst den Zyklus, in dem sie eingeschlossen sind. Sie wird emotional, weil sie die Chance hat, die 9S, die sie von Engels' Angriff zu Beginn des Spiels kennt, endlich zu retten, zeigt aber später Wut darüber, dass sein Gedächtnis nach ihrem ersten Rendezvous verloren ging.</p>
+
+                <p class="spoiler">Die Aufgabe von 2B (2E) bestand darin, sicherzustellen, dass 9S die wahre Natur des Projekts YoRHa nicht entdeckt, indem sie ihn hinrichtet, falls er wegen der in ihm programmierten natürlichen Neugier zu tief grub. Im Laufe von Hunderten von Operationen war 2B gezwungen, 9S zu töten und sein Gedächtnis unzählige Male zu löschen – eine Handlung, die sie wegen des Schmerzes, den sie verursachte, hasste, nachdem sie sich in dieser Zeit mit ihm verbunden hatte.</p>
+
+                <hr class="cutter" id="pos-9s">
+
+                <p class="title-sub" style="text-align: center;">YoRHa No. 9 Type S</p>
+                <center>
+                        <figure>
+                                <img class="char-img" src="images/x79q/YoRHa_No.9_Type_S.png" width="100" alt="">
+                                <figcaption>Hover to enlarge.</figcaption>
+                        </figure>
+                </center>
+
+                <p><strong>YoRHa No.9 Type S</strong> (Scanner) <em>(kurz: 9S)</em> ist der Protagonist der Zweige B und D in NieR:Automata, sowie einer der Hauptantagonisten und Endchef von Branch C.</p>
+
+                <p>9S ist ein Android vom Scannertyp, der während des 14. Maschinenkriegs diente. Er hat eine Angriffsfunktion, aber es ist ein Android, der sich auf Ermittlungszwecke spezialisiert hat - ein Mitglied der automatisierten Infanterieeinheit YoRHa, die bei der hackbasierten Informationssammlung triumphiert.</p>
+
+                <p>Er ist mit einer emotionalen, aber freundlichen Persönlichkeit programmiert. Er zeigt sich höflich und sehr formell mit 2B, wie er sie Ma'am nennt (da sie seine Vorgesetzte ist).  Während des Tutorials zum Einstellen der <em>Settings</em> hat 2B die Möglichkeit, ihm zu sagen, dass „es etwas Beruhigendes an seiner Stimme gibt“. 9S äußert oft seine Gedanken und Gefühle, insbesondere Beschwerden über seinen Job (z.B. zu oft mit Sachen beauftragt zu werden oder den Job ermüdend zu finden), die 2B schnell ablehnen wird. Als das Duo auf ihrer Reise näher rückt, versucht 9S, 2B dazu zu bringen, ihn mit seinem Spitznamen <a class="charref" href="#pos-9s">“Nines”</a> zu nennen.</p>
+
+                <p>9S erweist sich als sehr engagierter und hilfsbereiter Partner von 2B. Er legt immer Wert darauf, sie über alles andere zu unterstützen, sogar über seine eigene Sicherheit. Mehr als einmal gelingt es ihm, 2B im letzten Moment vor großen Gefahren zu bewahren, sogar so weit, vor Eva zu springen, um sie in der letzten Schlacht des Zweiges zu schützen. Nachdem 2B von A2 in <em>Branch C</em> getötet und mit einem Logik-Virus infiziert wurde, beginnt sich sein psychischer Zustand schnell zu verschlechtern, was ihn rücksichtsloser, gewalttätiger und selbstzerstörerischer macht, da er ausschließlich von seinem Wunsch angetrieben wird, A2 und alle Maschinen zu zerstören. Am Ende der Zweige C und D ist er vor Trauer wahnsinnig geworden und weigert sich, <a class="charref" href="#pos-a2">A2</a> oder <a class="charref" href="#pos-pod153">Pod 153</a> zu hören.</p>
+
+                <p>Wie es seinem Titel eines Scanners entspricht, hat 9S einen sehr neugierigen Blick auf Technologie und neues Wissen als Ganzes. Sogar 2B bemerkt an einem Punkt, dass es "außer Kontrolle gerät". Zum Beispiel ist er aufgeregt, wenn er die Möglichkeit hat, mit Flugeinheiten in Kontakt zu kommen (da sie normalerweise zu teuer für seine Klasse sind, um überhaupt in die Nähe einer zu kommen) oder äußert den großen Wunsch, die Maschinen in <span class="highlight-for-later-edit"><a class="charref" href="#pos-pascal">Pascals Dorf</a></span> zu studieren. Wenn der Spieler zu Beginn des 9S Prologs vom Haupt-Questpfad abweicht, erhält er ein sofortiges Ende ([G]ame Over), in dem 9S erklärt, dass er seinen Wunsch, Maschinen zu studieren, nicht mehr zurückhalten kann, und beschließt, YoRHa zu verlassen, um seiner Leidenschaft nachzugehen, wobei 2B ohne Unterstützung bleibt.</p>
+
+                <blockquote class="intel-desc">
+                        <h3>Intel Description:</h3>
+                        <p>This unit's official title is Model S, Number 9. While this YoRHa member possessed offensive abilities, he specialized skilled at information gathering and hacking. While 9S normally had a kind personality, he began to exhibit hatred for A2 when she killed 2B-for whom he possessed an unusually deep affection. In a cruel twist, he also met end at the hands of A2.</p>
+                </blockquote>
+
+                <hr class="cutter" id="pos-a2">
+
+                <p class="title-sub" style="text-align: center;">YoRHa Type A No. 2</p>
+                <center>
+                        <figure>
+                                <img class="char-img" src="images/x79q/YoRHa_No.2A.png" width="100" alt="">
+                                <figcaption>Hover to enlarge.</figcaption>
+                        </figure>
+                </center>
+                <p><strong>YoRHa Typ A No.2</strong> <em>(kurz: A2)</em> dient als Protagonistin von Branch C in NieR: Automata sowie als <em>Final Boss</em> von Branch D. Sie ist auch eine Hauptfigur im <span class="highlight-for-later-edit"><em>YoRHa Stage Play.</em></span></p>
+
+                <p>Sie ist ein Prototyp der YoRHa-Androidenlinie. Kampfdaten von ihr und ihren Kameraden wurden verwendet, um die überlegenen <em>Stromlinien</em>, einschließich 2B und 9S, zu erstellen. Sie spricht nicht gerne und behält oft für sich.</p>
+
+                <p>Drei Jahre vor den Ereignissen von NieR: Automata war sie Mitglied der ersten YoRHa-Staffel, die als Teil des <em>Pearl Harbor Descent</em> in den ersten Jahren des <a class="charref" href="#lore">14. Maschinenkriegs</a> zur Erde eingesetzt wurde. Ihr damaliger Deckname war No.2, der in Automata als “Number Two” geparst wird. Sie wurde von <strong>Ruka Endo</strong> im <abbr title="YoRHa Stage Play">Bühnenstück</abbr> dargestellt.</p>
+
+                <p>A2 wird zunächst als geheimnisvoll und wortkarg dargestellt. Es wird jedoch schließlich durch ihre Interaktionen mit Pod 042 gezeigt, dass sie eine aggressive und feurige Persönlichkeit besitzt. Sie hat eine Neigung zu rücksichtslosem Verhalten, da sie kopfüber in Gefahrensituationen eintauchen wird, ohne Rücksicht auf strategische Bewertungen oder ihre eigene persönliche Sicherheit. Wenn sie mit anderen spricht, neigt sie dazu, stumpf, ungeduldig und unanständig zu sein.</p>
+    
+                <p>Nach dem Tod ihrer Staffel wird ihr Hass auf Maschinen und ihr Verlangen nach deren Zerstörung allumfassend und bestimmt den Rest ihres Fortbestands. Ihre selbst auferlegte Mission der Rache dient aber auch dazu, sie von ihrem inneren Aufruhr abzulenken und zu bedauern, da sie sich privat danach sehnt, bei ihren toten Kameraden zu sein.</p>
+    
+                <p>Trotz ihrer groben Manierismen ist sie nicht ohne Mitgefühl. Auf ihren Wunsch hin nahm sie 2B widerwillig das Leben, so dass sie nicht durch die Qualen und den Wahnsinn des Logikvirus, der ihren Verstand verschlechtert, leiden würde. Sie erlaubte Pascal, trotz ihres bösartigen Hasses auf Maschinen zu leben, als sie erkannte, dass er fügsam war. Später unterstützte sie ihn beim Schutz der Maschinenkinder in der verlassenen Fabrik. Sie äußerte auch Trauer über den Tod der Maschinenkinder sowie Sympathie für Pascal, der zur Verzweiflung gebracht worden war. Sie verschont und streckt 9S trotz der zahlreichen Versuche, die diese mit ihrem Leben unternommen hat, ständig aus, in der Hoffnung, dass er zu seinem gutmütigen Selbst zurückkehren kann.</p>
+    
+                <p>Pod 042 hat auch angedeutet, dass die KI-Parameter von A2 nicht dem Standard der aktuellen YoRHa-Modelle entsprechen, da sie von ihm oft verlangt, dass er die Begriffe vereinfacht, damit sie sie verstehen.</p>
+    
+                <blockquote class="intel-desc">
+                    <h3>Intel Description » Chapter 06-05</h3>
+                    <p>The A-model is a YoRHa prototype that specializes in close-quarter combat. Though not presently in use, it was originally created to speed along the implementation of other official models such as 2B and 9S. This particular unit- whose official title is Class A, Number 2- was wanted by Command for desertion and ordered to be destroyed on sight. She first appeared in the Forest Castle, where she slew the Forest King. 2B and 9S engaged her in combat, but she managed to escape.</p>
+                </blockquote>
+    
+                <blockquote class="intel-desc">
+                    <h3>Intel Description » Chapter 17-09</h3>
+                    <p>9S and A2 face off. A2 tries to convince 9S of how pointless the fight is, but her words fail to penetrate the cloud of violent anger in his mind. During the battle, A2 hesitates for a moment when she hears a memory of 2B call out to her, leading to her demise.</p>
+                </blockquote>
+    
+                <hr class="cutter" id="pos-commander">
+
+                <p class="title-sub" style="text-align: center;">YoRHa Commander White</p>
+                <center>
+                        <figure>
+                                <img class="char-img" src="images/x79q/YoRHa_Commander.png" width="100" alt="">
+                                <figcaption>Hover to enlarge.</figcaption>
+                        </figure>
+                </center>
+                <p><strong>Commander</strong> <em>(manchmal ‘White’ genannt, Codename)</em> ist ein Charakter in NieR: Automata und ist der Kommandant von YoRHa No. 2 Typ B und YoRHa No. 9 Tyo S. Sie hat das Kommando �ber die YoRHa-Staffeln, die sie beaufsichtigt und vom Bunkeraußenposten im Erdorbit aus anweist.</p>
+
+                <p class="spoiler">Commander White ist das oberste Haupt des YoRHa-Kommandos. Vor den Ereignissen des Hauptspiels schickte sie A2, damals Number 2 genannt, und ihre Gruppe los, um einen Angriff auf einen Maschinenserver auf Hawaii anzufühhren. Obwohl erwartet wurde, dass keiner der Prototypen �berleben w�rde, endete die Mission mit einem Erfolg. Als einziger überlebender YoRHa-Androide wurde A2 als Verr�ter wahrgenommen.</p>
+
+                <p>Ihre Persönlichkeit ist die eines ruhigen und gelassenen Kommandanten der YoRHa-Einheiten und Direktor des – als “Bunker” bekannten – Orbitalsatelliten. Es gibt eine gewisse Verbindung zwischen ihr und A2.</p>
+                
+                <p>Obwohl sie von 9S als ‘Hardass’ bezeichnet wird, wird von Operator 6O enthüllt, dass die Kommandantin ihre Kleidung tatsächlich überall in ihren Privaträumen verstreut lässt und sie selten ihren Körper in Wartung gibt.</p>
+
+                <blockquote class="intel-desc">
+                    <h3>Editor Note » REF 22-79</h3>
+                    <p>White” is her “codename” just as the Instructor’s codename is “Black”. It's not necessarily their full name or anything of the sort. In NieR:Automata, the Commander is ONLY referred to as 司令官 aka Commander. The same is true for the YoRHa Boys stage play. The Instructor is only referred to as “教官”. They are, never once, referred to by their “color’ codenames.</p>
+                </blockquote>
+
+                <hr class="cutter" id="pos-6O">
+
+                <p class="title-sub" style="text-align: center;">YoRHa Number 6 Type O</p>
+                <center>
+                        <figure>
+                                <img class="char-img" src="images/x79q/6Operator.png" width="100" alt="">
+                                <figcaption>Hover to enlarge.</figcaption>
+                        </figure>
+                </center>
+                <p><strong>Operator</strong> 6O <em>(ausgesprochen: ‘Operator Six-Oh’)</em> ist ein Android-Kommunikationsoperator, der permanent im Bunker stationiert ist. Zu ihren Aufgaben gehören, wie bei anderen Operatoren, die Vermittlung von Anweisungen an die YoRHa-Soldaten auf der Erde sowie die Informationsanalyse. Obwohl ihr körperliches Aussehen fast identisch mit dem ihrer Kollegen ist, trägt sie zur körperlichen Unterscheidung Zöpfe im Haar.</p>
+
+                <p>Operator 6O, verantwortlich für YoRHa No.2 Typ B, ist vergleichsweise hell, freundlich und persönlich. Es ist nicht ungewöhnlich, dass 6O 2B in Angelegenheiten, die nichts mit der Mission zu tun haben, informell kontaktiert; ein deutlicher Kontrast zur stoischeren und unpersönlicheren 2B und zum anderen <a class="charref" target="#pos-21O">Operator 21O</a>. Da sie den Bunker nicht verlassen kann, birgt sie eine Neugierde darüber, wie das Leben auf der Erde aussieht.</p>
+
+                <p>In Route A beginnt eine <em>Sidequest</em> mit einer Anfrage von 6O, dass 2B ihr ein Bild einer Blume von der Erde schicken soll. 2B kann diese Nebenaufgabe abschließen, indem es eine Wüstenrose im Wüstengebiet lokalisiert.</p>
+
+                <p>Während der Flucht aus dem Bunker nach dem Ausbruch des <span class="highlight-for-later-edit">Logic Virus</span> in Route C werden 2B und die anderen an den Quartieren von 6O vorbeilaufen. Wenn der Spieler die Quest von 6O beendet hat, wird ein zusätzlicher Dialog ausgelöst, in dem ein infiziertes 6O-Model 2B für die Blume dankt.</p>
+
+                <p>6O ist eine von zahlreichen YoRHa-Verletzten infolge des Ausbruchs des Logic Virus auf dem Bunker.</p>
+
+                <hr class="cutter" id="pos-21O">
+
+                <p class="title-sub" style="text-align: center;">YoRHa Number 21 Type O</p>
+                <center>
+                        <figure>
+                                <img class="char-img" src="images/x79q/21Operator.png" width="100" alt="">
+                                <figcaption>Hover to enlarge.</figcaption>
+                        </figure>
+                </center>
+                <p><strong>Operator 21O</strong> <em>(ausgesprochen: Operator two-one-oh)</em> ist ein Android-Kommunikationsoperator, der permanent im Bunker stationiert ist. Zu ihren Aufgaben geh�ren die Vermittlung von Anweisungen an die YoRHa-Soldaten auf dem Feld sowie die Informationsanalyse. Die Persönlichkeiten unterscheiden sich leicht zwischen den Einheiten.</p>
+
+                <p>Operator 21O, verantwortlich für YoRHa No.9 Typ S, ist besonnen, kalt und unpersönlich. Sie meidet 9S’ Versuche, zwanglose Gespräche zu führen, und achtet nicht auf seine Komplimente. In Bezug auf die Persönlichkeit ist sie ein polarer Gegensatz zum viel scheidenderen <a class="charref" target="#pos-6O" title="Charaktere/6O">Operator 6O.</a></p>
+
+                <p>Trotz ihres kalten Äußeren birgt 21O eine geheime Sehnsucht nach einer Familie. Sie deutet dies zunächst an, da 9S für sie Nebenaufgaben erledigt, bei denen es um die Suche nach Relikten der alten Welt geht, wo sie auf die Ergebnisse mit Interesse reagiert, wo die Relikte sich auf das menschliche Familienverhalten beziehen.</p>
+
+                <p>In der Mission der 9S, die Maschinenabwehr zu Beginn des dritten Spielzyklus zu deaktivieren, wenn 9S die Luftverteidigung vollständig deaktiviert (durch Hacken des Roboters der Goliath-Klasse am Eingang des Supermarktes), wird 21O 9S ein Geschenk anbieten, das sie in [wordmiss] Zimmer gelegt hat.</p>
+
+                <p class="spoiler">Nach der überwachung dieser Mission wird von 21O erst viel später wieder gehört, wenn 9S die <a class="charref-spoiler" target="#pos-GodBox">God Box Resource Station</a> infiltriert. Dort wird enthüllt, dass 21O freiwillig in eine B-Einheit umgewandelt wurde und 21B für den YoRHa-Massenangriff wurde, der durch den <a class="charref-spoiler" target="#pos-LogicVirus">Ausbruch des Logikvirus</a> verhindert wurde. Infiziert durch das Virus selbst, kämpft 21O, während sie 9S kämpft, und fleht, dass sie nur Teil einer Familie sein wollte, angedeutet in ihren vorherigen Quests, und dann für 9S, um sie zu töten.
+                <br><br>
+                21O <em>(z.ZP.: 21E)</em> wird getötet, als A2 von hinten erscheint und sie durchläuft. Obwohl A2 es schafft, dem Wunsch von 21O nach dem Tod nachzukommen und 9S zu retten, fördert das Ereignis nur den <a class="charref-spoiler" target="#pos-MentalBreakdown">mentalen Zusammenbruch von 9S</a>.</p>
+
+                <hr class="cutter" id="pos-devola">
+
+                <p class="title-sub" style="text-align: center;">Devola</p>
+                <center>
+                        <figure>
+                                <img class="char-img" src="images/x79q/NA_Devola.png" width="100" alt="">
+                                <figcaption>Hover to enlarge.</figcaption>
+                        </figure>
+                </center>
+                <p>Devola, <em>auch bekannt als “Debol” in der japanischen Version</em>, ist eine Hauptfigur in NieR und NieR: Automata. Sie ist die jüngere Zwillingsschwester von <a class="charref" href="#pos-popola" title="Charaktere/Polola">Popola</a> und eine Freundin von <a class="charref" href="#" title="Charaktere/Nier">Nier</a></p>.
+
+                <p>Popola und Devola helfen 9S, in den Turm zu gelangen, indem sie den Maschinenfeinden als Ablenkung dienen. Nachdem 9S nicht in der Lage ist, sich den Weg nach innen zu hacken, unternimmt Popola einen Versuch auf Kosten der ständigen Stromschläge. Devola verteidigt 9S und Popola vor den Maschinen, bis Popola es schafft, das Tor des Turms zu öffnen. Devola vernichtet den Roboter, gegen den sie kämpft, und schleppt 9S durch das Tor, das Popola geöffnet hat, und verabschiedet sich von 9S, als das Tor beginnt, sich wieder zu schließen. Sobald das Tor vollständig geschlossen ist, erhält Popola einen vermutlich tödlichen Schock, der einen statischen Bildschirm hervorruft.</p>
+
+                <p>Eine schwer verwundete Popola ist später mit Devola bei A2 am Eingang des Turms zu sehen. Sie fragen A2, ob es ihnen gelungen ist, etwas Gutes zu tun, und A2 erwähnt, dass sie es getan haben. Das Paar offenbart ihr, dass sie den Turm für 9S geöffnet haben.</p>
+
+                <hr class="cutter" id="pos-popola">
+
+                <p class="title-sub" style="text-align: center;">Popola</p>
+                <center>
+                        <figure>
+                                <img class="char-img" src="images/x79q/PopolaArtwork.png" width="100" alt="">
+                                <figcaption>Hover to enlarge.</figcaption>
+                        </figure>
+                </center>
+                <p>Popola, <em>in der japanischen Version auch als Popol bekannt</em>, ist eine Hauptfigur in NieR und NieR: Automata. Sie ist die ältere Zwillingsschwester von <a class="charref" href="#pos-devola" title="Charaktere/Devola">Devola</a> und eine Freundin von <a class="charref" href="#" title="Charaktere/Nier">Nier</a>.</p>
+                
+                <p>Popola und Devola helfen 9S, in den Turm zu gelangen, indem sie den Maschinenfeinden als Ablenkung dienen. Nachdem 9S nicht in der Lage ist, sich den Weg nach innen zu hacken, unternimmt Popola einen Versuch auf Kosten der ständigen Stromschläge. Devola verteidigt 9S und Popola vor den Maschinen, bis Popola es schafft, das Tor des Turms zu öffnen. Devola vernichtet den Roboter, gegen den sie kämpft, und schleppt 9S durch das Tor, das Popola geöffnet hat, und verabschiedet sich von 9S, als das Tor beginnt, sich wieder zu schließen. Sobald das Tor vollständig geschlossen ist, erhält Popola einen vermutlich tödlichen Schock, der einen statischen Bildschirm hervorruft.</p>
+
+                <p>Eine schwer verwundete Popola ist später mit Devola bei A2 am Eingang des Turms zu sehen. Sie fragen A2, ob es ihnen gelungen ist, etwas Gutes zu tun, und A2 erwähnt, dass sie es getan haben. Das Paar offenbart ihr, dass sie den Turm für 9S geöffnet haben.</p>
+
+                <hr class="cutter" id="pos-anemone">
+
+                <p class="title-sub" style="text-align: center;">Anemone</p>
+                <center>
+                        <figure>
+                                <img class="char-img" src="images/x79q/Anemone.png" width="100" alt="">
+                                <figcaption>Hover to enlarge.</figcaption>
+                        </figure>
+                </center>
+                <p>Anemone ist ein Anführer des Widerstandes. Sie hat eine unerschütterliche Persönlichkeit und k�mmert sich um ihre Freunde.</p>
+
+                <p>Als Rückkehrerin aus dem YoRHa-Bühnenspiel war sie ursprünglich Teil des Widerstandes unter dem Kommando von Rose während des 8. Maschinenkrieges, der über 200 Jahre vor der Zeitlinie in Automata stattfand.</p>
+
+                <p>Als sie zum ersten Mal 2B im Resistance Camp trifft, verwechselt sie sie mit <a class="charref" href="#pos-a2">YoRHa Number Two</a>. Sie diente während des 8. Maschinenkriegs und vorwärts unter der Führung des damaligen Widerstandsführers Rose. Während der ersten großen Schlacht des 14. Maschinenkriegs traf sie während des Pearl Habor-Angriffs auf das YoRHa-Team unter A2. Die Mission war es, den Maschinenserver, der sich auf der Insel befand, auszuschalten. Trotz des Verlusts der meisten Menschen, die an der Mission teilnahmen, einschließlich Rose, gelang es Anemone und A2, den Maschinenserver zu zerstören und die Maschinenbedrohung von Hawaii zu beseitigen. Anemone wurde von da an zum neuen Anführer des Android-Widerstandes.</p>
+
+                <blockquote class="intel-desc">
+                    <h3>Trivia » Anemone</h3>
+                    <p>Anemones erstes Treffen mit 2B bezieht sich auf ihre frühere Loyalität mit A2 im YoRHa Bühnenstück.</p>
+                </blockquote>
+
+                <hr class="cutter" id="pos-jackass">
+
+                <p class="title-sub" style="text-align: center;">Jackass</p>
+                <center>
+                        <figure>
+                                <img class="char-img" src="images/x79q/Jackass.png" width="100" alt="">
+                                <figcaption>Hover to enlarge.</figcaption>
+                        </figure>
+                </center>
+                <p>Jackass ist Mitglied des Widerstands auf der Erde in NieR: Automata.</p>
+                <p>Mit ihr kann ein Ende erhalten werden, das mit einer Makrele zu tun hat.</p><br>
+                <p style="background-color: rgb(0, 126, 238); width: 100%; padding: 9px; box-shadow: -3px -3px 0px rgba(0,0,0,0.05), 3px 3px 0px rgba(0,0,0,0.05);">Editor add content</p>
+                
+                <hr class="cutter" id="pos-adam">
+
+                <p class="title-sub" style="text-align: center;">Adam</p>
+                <center>
+                        <figure>
+                                <img class="char-img" src="images/x79q/Adam.png" width="100" alt="">
+                                <figcaption>Hover to enlarge.</figcaption>
+                        </figure>
+                </center>
+                <p>Adam ist eine Hauptfigur und der sekundäre Antagonist der Zweige A und B in NieR:Automata. Er ist der �ltere Bruder von <a class="charref" href="#pos-eve" title="Charaktere/Eve">Eve</a>.</p>
+
+                <p>Ein silberhaariger junger Mann, dessen Identität von einem Geheimnis umhüllt ist. Er hat ein kühles Temperament, kann aber um seines Ziels willen gnadenlos handeln. Wie bereits erwähnt, scheint Adam ein ruhiger, mysteriöser und intellektueller Mann zu sein. Er hat ein tiefes Interesse an der Menschheit und allem, was mit ihnen zu tun hat. Er ist ein Mann der Neugierde, der ein Ziel verfolgt und mehr über die Menschheit erführt. Allerdings würde er nicht zögern, Grausamkeiten anzuwenden, um seine Ziele zu erreichen.</p>
+
+                <p>Adam zeigt ein tiefes Interesse am Begriff des Todes, das heißt, weil der Tod etwas ist, das er für einen äußerst komplexen Begriff der Menschheit hält, während er Maschinen fast nichts bedeutet, da sie sich immer wieder regenerieren können, während, wenn Menschen sterben, dies das Ende für sie ist. In dem <em>Light Novel</em> (der nicht ins Englische übersetzt wurde) wird Adam als komplizierter, trauriger und deprimierender Charakter angesehen, als er im Videospiel gezeigt wird.</p>
+
+                <p>Es offenbart sich im <em>Light Novel</em>, dass er jeden zutiefst verachtet, der ihn und Eva in eine solche Welt ohne jegliche angemessene Bildung oder Fürsorge gebracht hat. Er dachte, wenn er diese schreckliche Sache beschreiben müsste, die ihnen widerfahren ist, würde er es „Hass“ nennen. Er erw�hnt, dass Eva von ihm lernt, aber er hat niemanden, von dem er lernen kann. Niemand ist da, um ihn so zu erziehen wie er es für Eva tut, was ihn dazu brachte, denjenigen zu verachten, der sie in diese Welt gebracht hat. Dies führte dazu, dass er sich selbst bildete, indem er von Menschen lernte.</p>
+
+                <p>Es frustrierte ihn, wie kompliziert Menschen sind und wie kompliziert es ist, über sie zu lernen, besonders über den Begriff Tod. Jedes Mal, wenn er etwas lernt, kommt ein anderes kompliziertes Konzept, das er nicht versteht. Der Tod ist ein perfektes Beispiel dafür. Er wollte verstehen, warum der Mensch den Tod ernst nahm, da er für Maschinen nichts bedeutete.</p>
+
+                <p>Abgesehen von seinem üblichen Selbst, wird Adam als ein wirklich guter Bruder von Eve angesehen. Er denkt, dass er verpflichtet ist, die Rolle eines Bruders von Eve zu spielen, dass es seine Aufgabe ist. Die Beziehung der beiden Brüder ist so eng, dass sie manchmal liebevoll romantisch aussieht. Auf der Route D hielt Adam Eva mit einer sanften Umarmung, als er in der Arche schlief. Das deutet auch darauf hin, dass er seine Fürsorge um Eve mehr gezeigt hat, da er in der Arche frei von Bosheit ist.</p>
+
+                <p>Selbst im <em>Light Novel</em> wird gezeigt, dass er ein guter Bruder ist, indem man zeigt, dass Adam tatsächlich nicht denkt, dass Eva dümmer ist als er. Er denkt in keiner Weise, dass er dumm ist. Er verwendet einfach den Begriff “Präverenzen“, denn in Eva bevorzugt er andere Dinge als das, was Adam bevorzugt. Adam strebt danach, mehr Wissen zu besitzen, während Eve sich nicht um Wissen kümmert, sondern körperliche Aktivitäten mag. Adam macht sich einfach Sorgen, dass, wenn Eve nicht so lernt wie er, sie nichts erreichen werden. Abgesehen von all dem kann gezeigt werden, dass Adam tatsächlich ein Masochist ist. Er genießt es, Schmerzen zu spühren, da sie Teil eines menschlichen Gefühls sind.</p>
+            
+                <hr class="cutter" id="pos-eve">
+
+                <p class="title-sub" style="text-align: center;">Eve</p>
+                <center>
+                        <figure>
+                                <img class="char-img" src="images/x79q/Eve.png" width="100" alt="">
+                                <figcaption>Hover to enlarge.</figcaption>
+                        </figure>
+                </center>
+                <p>Eve ist eine Hauptfigur und der Hauptantagonist der Zweige A und B in NieR: Automata. Er ist der jüngere Bruder von <a class="charref" href="#pos-adam" title="Charaktere/Adam">Adam.</a></p>
+                
+                <p>Eve ist ein einfacher Mann. Er denkt nicht gerne tief über etwas nach und stellt normalerweise Fragen über Dinge, die er nicht zu tun hat. Er scheint auch in gewisser Weise kindisch zu sein, besonders bei Adam. Im Gegensatz zu Adam, der intellektuell und ruhig ist, könnte sich Eva nicht weniger um Wissen kümmern. Vielmehr interessiert er sich für alles, was mit körperlicher Aktivität zu tun hat. Solange er sich körperlich betätigt, ist er glücklich. Mit anderen Worten, er ist der Rohling unter den beiden.</p>
+            
+                <p>Eve hat auch eine niedrige <em>Launschwelle</em>, wird leicht wütend und ist emotional. Von den beiden ist Eva körperlich stärker, während Adam schlauer ist. Eve liebt und kümmert sich sehr um Adam. Er ist sehr beschützerisch zu ihm und betrachtet ihn als sein „Alles“. Die beiden Brüder haben eine enge Beziehung, dass es manchmal liebevoll romantisch erscheint.</p>
+                        
+                <p>Eve wusste von Anfang an, dass er Adam beschützen muss. Als wäre er Adams Schild, denn er war tatsächlich technisch so geschaffen, dass er sein Schild war. Er erweist sich ihm gegenüber als äußerst loyal, achtet nicht auf das, was er selbst will, und stellt die Wünsche oder Bedürfnisse seines Bruders über seine eigenen. Solange Adam mit etwas einverstanden ist, ist es auch Eve, auch wenn er eine Entscheidung hasst, die Adam getroffen hat, ist es ihm egal, oder er gibt Gedanken darüber, solange es Adam glücklich macht.</p>
+            
+                <p>Während Eve als jemand angesehen wird, der gerne mit Adam im Videospiel spielt, wird im <em>Light Novel</em> enthüllt, dass es Eva eigentlich nichts ausmacht, wenn er überhaupt nicht spielt. Er entschied sich tatsächlich, mit seinem Bruder zu spielen, weil er wusste, dass Adam an der Menschheit interessiert ist. Was Eve also normalerweise meint, wenn er ‘Play’ sagt, ist, dass er sich auf das Spielen bezieht, was er das <strong><em>Human-Make-Believe-Spiel</em></strong> nennt, also menschliche Aktivitäten, an denen Adam interessiert ist.</p>
+                
+                <p>Er wusste, dass Adam die Menschheit mag, deshalb bittet er Adam normalerweise, mit ihm zu spielen, weil er denkt, dass es Adam glücklich macht, da die „Spielzeit“ mit menschlichen Aktivitäten verbunden ist.</p>
+            
+                <p>Wie bereits erwähnt, ist es Eve egal, was er will, solange Adam mit einer Entscheidung einverstanden ist oder sich für ihn entscheidet. Aber das Einzige, worum sich Eve aus eigenem Wunsch kümert, ist die Sicherheit seines Bruders, d. h. ihn nicht zu verlieren. Normalerweise hört er auf Adam, außer wenn es darum geht, ihn zu schätzen. Als 9S in ihn hackt, wird gezeigt, dass Eve endlich davon spricht, was er will, anstatt was Adam will, d. h. Adam nicht zu verlieren und dass er will, dass sie friedlich zusammen an einem ruhigen Ort sind.</p>
+            
+                <p>Nach Adams Tod wurde er von der Trauer überwältigt, die in ihm wütete und schwor, alle zu töten. Sein Verlust von Adam ließ die Maschinen ausrasten. Es zeigte sich auch, dass Eve weinte, als er immer wieder „Bruder“ sagte, bevor 2B und 9S ihn bekämpften. Er konnte nicht normal leben, nachdem er sein „Alles“ verloren hatte, dass sich sein Tod anfühlte, als wäre es ein Gnadenschuss. Es ist wichtig zu beachten, dass im Gegensatz zu Adam, der denkt, dass Eve und er dasselbe Wesen sind, Eve sie als getrennte Wesen betrachtet.</p>
+            
+                <blockquote class="intel-desc">
+                    <h3>Intel Description » Chapter 01</h3>
+                    <p>This unit has achieved an unusual level of evolution among machine lifeforms, as it possesses a strong resemblance to androids. It first appeared after splitting off from another machine.</p>
+                </blockquote>
+            
+                <blockquote class="intel-desc">
+                    <h3>Intel Description » Chapter 05</h3>
+                    <p>Eve was again encountered in the alien mothership. He has the ability to regenerate no matter how many times he is killed, and adores the unit known as Adam-who he thinks of as an older brother.</p>
+                </blockquote>
+            
+                <blockquote class="intel-desc">
+                    <h3>Intel Description » Chapter 10</h3>
+                    <p>After going mad with rage over the loss of Adam, Eve gained the ability to unleash powerful attacks with an arm clad in debris. Thanks to the desperate hacking work of 9S, he was eventually seperated from the network and killed.</p>
+                </blockquote>
+
+
+                <br/><hr class="hr-text" noshade id="baddies" />
+                <p class="title-textarea" id="overview-char">Bosse in <span class="highlight-title">NieR: Automata</span></p>
+                
+                <hr class="cutter">
+
+                <p class="title-sub" style="text-align: center;">Marx</p>
+                <center>
+                        <figure>
+                                <img class="char-img" src="images/x79q/Marx.png" width="100" alt="">
+                                <figcaption>Hover to enlarge.</figcaption>
+                        </figure>
+                </center>
+                <blockquote class="intel-desc">
+                    <h3>Unit Description: Marx</h3>
+                    <p>A massive Goliath-class machine lifeform that resembles heavy machinery of old. While it appears to have been constructed solely for its destructive abilities, a closer look at its features tells a different story. While in combat, it comes after foes with a repurposed bucket-wheel excavator.</p>
+                </blockquote>
+
+                <p>Marks ist der erste Gegner der Goliath-Klasse, den der Spieler bekämpfen wird und hat somit ein einmaliges Erscheinen im Spiel.</p>
+
+                <p>Dieser Boss ist eine Anspielung auf Karl Marx, deutschen ökonomen, Historiker, Politologen, Soziologen, Journalisten und Gründer der marxistischen Theorie.</p>
+            
+                <hr class="cutter" id="pos-simone">
+
+                <p class="title-sub" style="text-align: center;">Simone</p>
+                <center>
+                        <figure>
+                                <img class="char-img" src="images/x79q/Simone.jpg" width="100" alt="">
+                                <figcaption>Hover to enlarge.</figcaption>
+                        </figure>
+                </center>
+                <blockquote class="intel-desc">
+                    <h3>Unit Description: Simone</h3>
+                    <p>A Goliath-class machine lifeform modeled after an opera singer, this unit attacked foes using the repurposed bodies of living androids. Obsessed with a certain other machine lifeform, she put great thought into her appearance - even going so far as to cannibalize her own kind. Alas, such garish decorations only ended up being a spectacular display of poor taste. Her search for beauty eventually led to her demise when she attacked 2B and 9S.</p>
+                </blockquote>
+                <p>Simone hat eine Vielzahl von Angriffen, wie z.B. eine Welle von Energie. (ähnlich dem Wave-Pod-Programm).</p>
+                
+                <p>Soblad man in Nahkapfreichweite der Einheit kommt, muss sie eine versteckte Maschine unter ihrem mechanischen Kleid aufdecken, die Nahkampfangriffe ausführt.</p>
+                
+                <p>Ein weiterer häufiger Angriff ist ihre Verwendung von langsamen ringförmigen Projektilen, die den Spieler infizieren und ihn dazu bringen, sich auf ein <em>Hackgame</em> zu verlassen.</p>
+            
+                <p>Auf halbem Weg nach der Begegnung beschwört Simone die Körper von <a class="charref" href="#">Nahtod-Androiden</a>, die auch die oben genannten Wellen- und Ringangriffe haben.</p>
+            
+                <p>Je weniger Gesundheit Simone hat, desto wütender wird sie, was die Rate ihrer Angriffe erhöht.</p>
+            
+                <p>Viele ihrer Angriffe sind auf bestimmte Teile ihres Boss-Themas synchronisiert.</p>
+            
+                <p>Ihr mechanisches Kleid ist mit einer Kette von <a class="charref" href="#">Nahtod-Androiden</a> umgeben.</p>
+            
+                <hr class="cutter" id="pos-engels">
+
+                <p class="title-sub" style="text-align: center;">Engels</p>
+                <center>
+                         <figure>
+                                <img class="char-img" src="images/x79q/Engels.png" width="100" alt="">
+                                <figcaption>Hover to enlarge.</figcaption>
+                        </figure>
+                </center>
+                <blockquote class="intel-desc">
+                    <h3>Unit Description: Engels</h3>
+                    <p>A massive Goliath-class machine lifeform disguised as a building. The tremendous amounts of energy running through its body forces the unit to emit steam in order to stay cool. When attacking, the heat generated from its arms often causes them to become engulfed in flames. Thought to have been produced in limited numbers, multiple units were recently discovered at the Abandoned Factory - though they were eventually destroyed by black-box reactions from 2B and 9S.</p>
+                </blockquote>
+            
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><span style="text-align: center;">More content will come!</span><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <div id="dev-new-bottom"></div>
+        </div> <!-- End text area -->
+
+        <div id="newsbereich">
+            <center>
+            <h5 class="news-headline">NieR: Automata – Game of the YoRHa Edition</h5>
+            <p class="news-item">
+            NieR: Automatas herkömmliche Store-Verison wurde am 26. Februar 2019 durch die <em>Game of the YoRHa-Edition</em> ersetzt.
+            </p>
+            <br>
+            
+            <h5 class="news-headline">NieR: Automata “3C3C1D119440927”-DLC erhältlich</h5>
+            <p class="news-item">
+            NieR: Automata erhält am 2. Mai 2017 ein <em>Content-DLC</em> mit Arena-Mode.
+            </p>
+            <br>
+                
+            <h5 class="news-headline">NieR: Automata ist bei Steam erhältlich</h5>
+            <p class="news-item">
+            In Europa ist NieR:Automata ab dem 17. März 2017 erhältlich.
+            </p>
+            <br>
+            </center>
+            <div id="pg-bottom"></div>
+        
+        </div> <!-- End news area -->
+
+        <!-- <div id="fussbereich">
+                <p>Diese Webseite ist das Ergebnis eines Schulprojektes.<br>
+                Max Sauer &copy; 2019</p>
+        </div> End footer -->
+ </body>
+</html>
