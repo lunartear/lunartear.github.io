@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kontaktiere uns – Pink Ribbon Foundation</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../assets/css/contact.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	<script type="text/javascript" src="../assets/scripts/javascript/charcount.js"></script>
+</head>
+<body>
+
+<!-- just a contact form design / not working -->
+<div class="container">
+  	<h1>
+	  <img src="../assets/images/graphics_interchange_format/yorhasymbol_white.gif" width="30" style="vertical-align: middle;" alt="White YoRHa symbol">
+	  	Kontaktiere uns!
+	  <img src="../assets/images/graphics_interchange_format/yorhasymbol_white.gif" width="30" style="vertical-align: middle" alt="White YoRHa symbol">
+	</h1>
+  <form action="/brustkrebs_contact.php">
+    <label for="fname">Vorname</label>
+    <input type="text" id="fname" name="firstname" placeholder="Dein Name" autocomplete="off">
+
+    <label for="lname">Nachname</label>
+    <input type="text" id="lname" name="lastname" placeholder="Dein Nachname" autocomplete="off">
+
+    <label for="mail">E-Mail-Adresse</label>
+    <input type="text" id="mail" name="mail" placeholder="87O@bunker.yrh" autocomplete="off">
+
+    <label for="country">Region</label>
+    <select id="region" name="region">
+      	<option value="oceania">— Wähle deine Region —</option>
+      	<option value="oceania">Ozeanien</option>
+      	<option value="na">Nordamerika / Kanada</option>
+      	<option value="eu">Europa</option>
+      	<option value="as">Asien</option>
+	  	<option value="fc" disabled>Flooded City</option>
+		<option value="cr" disabled>City Ruins</option>
+		<option value="fk" disabled>Forest Kingdom</option>
+		<option value="td" disabled>The Desert</option>
+		<option value="so" disabled>Bunker / Solar Orbit</option>
+		<!-- all disabled option fields are references to in-game locations -->
+		<!-- these are just fun 'easter eggs', not real places -->
+    </select>
+
+    <label for="subject">Gib uns eine kurze Beschreibung des Problems.</label>
+    <textarea id="subject" name="subject" placeholder="" style="height: 200px" maxlength="355" onkeyup="change(this);"></textarea><br>
+	<span class="small-tip fl-right al-right">Du hast <span id="char_cnt" style="color: #C8C2AA; font-weight: bold;">0</span> Zeichen benutzt.<br>Weitere <span id="chars_left" style="color: #C8C2AA; font-weight: bold;">355</span> sind noch verfügbar.</span>
+
+    <input type="submit" value="Absenden">
+  </form>
+</div>
+</body>
+</html>
