@@ -8,6 +8,7 @@
     <script type="text/javascript" src="../assets/scripts/javascript/capslockdetect.js"></script>
 </head>
 <body>
+	<div class="reg-overlay-dark"></div>
 	<div class="login-field">
 			<form>
   				<div class="login-container">
@@ -20,8 +21,7 @@
 
     				<label for="psw"><b>Passwort</b> <span style="color: red;">*</span> <span style="/**/" class="forgot-password"><a href="reset_password.html">Passwort vergessen?</a></span> </label>
     				<input class="capslockdetect" type="password" placeholder="" name="psw" required autocomplete="off" onkeypress="feststellcheck(event)">
-                    <div id="upperCase" style="visibility:hidden"><i class="fas fa-exclamation-triangle"></i> — Die Feststelltaste ist aktiv.</div>
-
+                    <!-- <div id="upperCase" style="visibility:hidden"><i class="fas fa-exclamation-triangle"></i> — Die Feststelltaste ist aktiv.</div> -->
     				<p><span style="color: red;">*</span> Pflichtfelder</p>
     				<hr>
                     <button type="submit" class="registerbtn" onclick="signinalert()">In Benutzerkonto einloggen</button>

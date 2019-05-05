@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
+	<div class="reg-overlay-dark"></div>
 	<div class="login-field">
 			<form>
   				<div class="login-container">
@@ -16,17 +17,16 @@
     				<hr>
 
     				<label for="username"><b>Benutzername</b> <span style="color: red;">*</span></label>
-    				<input type="text" placeholder="" name="username" required autocomplete="off">
+    				<input type="text" placeholder="Wie sollen wir dich nennen?" name="username" required autocomplete="off">
 
     				<label for="email"><b>E-Mail-Adresse</b> <span style="color: red;">*</span></label>
-    				<input type="text" placeholder="" name="email" required autocomplete="off">
+    				<input type="text" placeholder="email@beispiel.yrh" name="email" required autocomplete="off">
 
     				<label for="psw"><b>Passwort</b> <span style="color: red;">*</span> </label>
     				<input type="password" placeholder="" name="psw" required autocomplete="off" onkeypress="feststellcheck(event)">
 
     				<label for="psw-repeat"><b>Passwort wiederholen</b> <span style="color: red;">*</span></label>
     				<input type="password" placeholder="" name="psw-repeat" required autocomplete="off" onkeypress="feststellcheck(event)">
-    				<div id="upperCase" style="visibility:hidden"><i class="fas fa-exclamation-triangle"></i> — Die Feststelltaste ist aktiv.</div>
     				<p><span style="color: red;">*</span> Pflichtfelder</p>
     				<hr>
     				<p>Mit dem Erstellen eines Benutzerkontos stimmen Sie unseren <a href="#">Nutzungs- und Datenschutzbestimmungen</a> zu.</p>
