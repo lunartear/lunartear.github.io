@@ -47,6 +47,12 @@ footer .grad {/*background-color: rgba(22,22,22,0.85);*/ padding: 8px; border-ra
 #gtmk-yorha .debug {font-family: 'Monaco Code', monospace; font-size: 12px; color: rgba(0,74,175,1.00); cursor: pointer; transition: color 0.3s;}
 #gtmk-yorha .debug:hover {color: rgba(59,142,255,1.00); transition: color 0.3s;}
 
+
+#gtmk-yorha .main-page-nav-list {list-style-type: none; padding-left: 0;}
+#gtmk-yorha .main-page-nav-list li {display: inline-block;}
+#gtmk-yorha .main-page-nav-list li a {color: rgba(0,74,175,1.00); cursor: pointer; transition: color 0.25s;}
+#gtmk-yorha .main-page-nav-list li a:hover {color: rgba(59,142,255,1.00); transition: color 0.25s;}
+
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */

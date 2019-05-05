@@ -92,12 +92,24 @@ body, html {
 #kopfbereich {
     top: 0;
     left: 0;
-    /*background: linear-gradient(130deg, #4D493E 1%, #C8C2AA 50%);*/
+    background: url("../images/graphics_interchange_format/wiki_header_lunar_tear_dark.gif") no-repeat bottom center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
     background-color: rgba(77,73,62,1.00);
     width: 100%;
-    height: 100px;
-    z-index: 2
+    height: 120px;
+    z-index: 2;
+	border-bottom: 3px solid #0d0e0f;
     }
+
+#kopfbereich .hd-highlight {
+	background-color: #0d0e0f;
+	padding-left: 25px;
+	border-radius: 12px;
+	opacity: 0.7;
+}
 
 #kopfbereich .header-content-text {
     padding-bottom: 0;
@@ -110,22 +122,18 @@ body, html {
     color: white;
     text-align: center;
     word-spacing: 5px;
-    padding-top: 15px;
+    padding-top: 25px;
     }
 
     
 
 #kopfbereich .useraccounts {
-    text-align: center;
-    font-size: 50px;
     letter-spacing: 25px;
     word-spacing: 5px;
     padding-top: 15px;
     position: absolute;
     font-family: 'NieR HUD';
     font-size: 17px;
-    letter-spacing: normal;
-    word-spacing: normal;
     text-align: right;
     top: 12px;
     right: 10px;
@@ -148,12 +156,12 @@ body, html {
 #useraccounts a {
     color: #FFF;
     text-decoration: none;
-    transition: color 0.5s;
+    transition: color 0.2s;
     }
 
 #useraccounts a:hover {
     color: rgba(33,99,170,1.00);
-    transition: 0.5s;
+    transition: 0.2s;
     }
 
 .fa-user {
@@ -177,12 +185,12 @@ body, html {
 
 #navibereich {
     position: fixed;
-    top: 100px;
+    top: 120px;
     left: 0;
     /* border: 1px solid #ccc; */
     background-color: #0D0E0F;
     width: 200px;
-    min-height: 400px;
+    height: 100%;
     z-index: 2;
     border-right: 2px solid #C8C2AA;
     border-bottom: 2px solid #C8C2AA;
@@ -192,7 +200,7 @@ body, html {
     position: absolute;
     left: 0;
     right: 0;
-    top: 100px;
+    top: 120px;
     padding-left: 210px;
     padding-right: 210px;
     padding-top: 20px;
@@ -219,7 +227,7 @@ body, html {
     #textbereich .highlight-title {background: #35322F; color: #FFFFFF; padding-right: 0px; padding-left: 5px; border-radius: 5px; padding-bottom: 1px; padding-top: 1px;  font-weight: bold;}
     #textbereich a {color: #4D493E;}
     #textbereich .external-link:after {content: '\00a0 \00a0 [externer Link]'; color: #75757A; font-size: 9px;}
-    #textbereich p {font-family: 'NieR HUD', sans-serif; color: #4D493E; font-size: 16px;}
+    #textbereich p {font-family: 'NieR HUD', sans-serif; color: #4D493E; font-size: 16px; text-align: justify;}
     #textbereich .quote-cut {border-top: 1px solid #0d0e0f; width: 25%;}
     #textbereich .title-textarea {font-family: 'NieR Title'; font-stretch: wider; letter-spacing: 5px; font-size: 32px; font-weight: bold; text-transform: uppercase; text-align: center;}
     #textbereich .title-sub {font-family: 'NieR Title'; font-size: 28px; font-weight: bold;}
@@ -246,10 +254,9 @@ body, html {
     #textbereich .loc-img {width: 300px; transition: 0.6s; cursor: zoom-in;}
     #textbereich .loc-img:hover {position:relative; width: 1000px; height: auto; display: block; z-index: 999; transition: 0.6s;}
     #textbereich ruby > rt {font-size: 12px; letter-spacing: 6px;}
-    #textbereich .blur-spoiler > p {filter: blur(100%);}
-    #textbereich .blur-spoiler > p:hover {filter: blur(0); transition: 0.5s;}
     .back-to-top {position: fixed; bottom: 0; right: 0; z-index: 10; background-color: #0d0e0f; padding-bottom: 7px; border-radius: 9px; margin-bottom: 15px; margin-right: 15px;}
     .fa-arrow-alt-circle-up {color: grey;}
+    #textbereich .twitter-feed {background-color: #0d0e0f; width: 100%;} /* standby 5/5/19 */
 
 
             /* -- ------------------------------------------------ -- */
@@ -263,13 +270,13 @@ body, html {
 #newsbereich {
     position: fixed;
     right: 0px;
-    top: 100px;
+    top: 120px;
     background-color: #0D0E0F;
     border-left: 2px solid #C8C2AA;
     border-bottom: 2px solid #C8C2AA;
     border-top: 2px solid #0d0e0f;
     width: 200px;
-    min-height: 400px;
+    height: 100%;
     z-index: 2;
     }
 

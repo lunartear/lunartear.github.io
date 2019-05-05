@@ -1,9 +1,22 @@
 @font-face {font-family: 'Akkurat'; src: url("../fonts/Akkurat.ttf");}
 
-body {font-family: 'Akkurat', sans-serif; background-color: #C8C2AA;}
+body {
+	font-family: 'Akkurat', sans-serif;
+	background: url("../images/bunker_view_main.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.cnt-form-dark {width: 100%; height: 100vh; background-color: rgba(0,0,0,0.8);}
 
 *:focus {
     outline: none;
+}
+
+* {
+ margin: 0;
 }
 
 input[type=text], select, textarea {
@@ -44,6 +57,7 @@ input[type=submit]:hover {
   	padding: 20px;
   	width: 50%;
   	color: white;
+	border: 3px solid #c8c2aa;
 }
 
 h1 {text-align: center;}

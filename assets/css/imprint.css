@@ -1,7 +1,5 @@
-@font-face {
-	font-family: 'Akkurat';
-	src: url("../fonts/Akkurat.ttf")
-}
+@font-face {font-family: 'Akkurat'; src: url("../fonts/Akkurat.ttf");}
+@font-face {font-family: 'Charter'; src: url("../fonts/CHARTER.OTF");}
 
 :root {
 	--text-default: 'Akkurat';
@@ -10,20 +8,40 @@
 }
 
 html, body {
-	font-family: sans-serif;
 	background-color: var(--notquiteblack);
 	padding: 0; margin: 0;
+	font-family: 'Akkurat';
 }
 
 .imprint {
-	padding-left: 50px;
+	width: 50%;
 	text-align: justify;
 	font-size: 16px;
 	color: var(--greyple);
 }
 
+.main-imprint {
+	font-family: 'Charter';
+}
+
+.imprint-notice {
+	background: rgba(253,156,0,1.00);
+	border-radius: 9px;
+	padding: 10px;
+	border: 3px solid rgba(0,0,0,1.00);
+}
+
+.spacebetw {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.nqb {color: var(--notquiteblack);}
 .center {text-align: center;}
+.left {text-align: left;}
+.justify {text-align: justify;}
 .shadow-effect {text-shadow: 1px 1px 0px #333, 2px 2px 0px #333, 3px 3px 0px #333, 4px 4px 0px #333, 5px 5px 0px #333, 6px 6px 0px #333, 7px 7px 0px #333;}
 .smallcaps {font-variant: small-caps;}
 .widthres {width: 70%;}
 .underline-header {border-bottom: 4px solid #23D9FF; width: 60%;}
+.imprint-section-header {border-bottom: 2px solid var(--greyple); padding-bottom: 5px;}
