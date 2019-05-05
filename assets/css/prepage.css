@@ -1,5 +1,5 @@
 body {
-  background: url("../images/engels_engage.jpg") no-repeat center center fixed; 
+  background: url("../images/graphics_interchange_format/yorhainfect_crop.gif") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -17,7 +17,8 @@ body {
 @font-face {font-family: 'Akkurat'; src: url("../fonts/Akkurat.ttf");}
 @font-face {font-family: 'Monaco Code'; src: url("../fonts/MONACO.TTF");}
 
-#overlay-dark {width: 100%; height: 100vh; background-color: rgba(0,0,0,0.4);}
+#overlay-dark {width: 100%; height: 100vh; background-color: rgba(0,0,0,0.75);}
+
 #gtmk-yorha {text-align: center; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background-color: rgba(0,0,0,0.85); padding: 65px; border-radius: 75px; border: solid 5px rgba(176,176,176,0.78); box-shadow: 20px 0px 0px rgba(176,176,176,0.78), -20px 0px 0px rgba(176,176,176,0.78);}
 #gtmk-yorha h1 {font-family: 'NieR Title'; font-size: 48px; word-spacing: 23px; letter-spacing: 5px; text-shadow: 0px 0px 3px #35322F; font-variant: small-caps;}
 #gtmk-yorha h4 {font-family: 'Akkurat'; font-size: 25px;}
